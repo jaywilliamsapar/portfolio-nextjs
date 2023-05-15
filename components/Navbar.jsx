@@ -93,7 +93,7 @@ const Navbar = () => {
             onClick={handleNav}
             className='md:hidden'
           >
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={30} />
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#fff] p-10 ease-in duration-500 font-semibold'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -119,8 +119,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='50'
+                    height='40'
                     alt='/'
                   />
                 </a>

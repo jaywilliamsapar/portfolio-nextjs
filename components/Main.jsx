@@ -13,7 +13,7 @@ const Main = () => {
             LET&#39;S CONQUER THE WORLD !!
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#e9318d]'> Jay </span>
+            Hi, I&#39;m <span className='text-[#1f7240]'> Jay </span>
           </h1>
           <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
@@ -31,7 +31,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
             >
