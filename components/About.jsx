@@ -23,12 +23,7 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+            But before I become a Web Developer, I work in a construction firm for almost 5 years, I had gained my skills for project management, detailed oriented skilled, and communication skilled development. But I am currently working as a full stack developer. I do freelance work, and I am always looking for new opportunities.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
