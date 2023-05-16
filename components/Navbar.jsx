@@ -54,7 +54,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className=' flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
             <Image
@@ -62,7 +62,7 @@ const Navbar = () => {
               alt='/'
               width='70'
               height='50'
-              className='cursor-pointer'
+              className='cursor-pointer hover:animate-spin'
             />
           </a>
         </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden'
+            className='md:hidden '
           >
             <AiOutlineMenu size={30} />
           </div>
@@ -122,6 +122,7 @@ const Navbar = () => {
                     width='50'
                     height='40'
                     alt='/'
+                    className='hover:animate-spin '
                   />
                 </a>
               </Link>
@@ -134,7 +135,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something awesome
+                Let&#39;s build something 🔥
               </p>
             </div>
           </div>
@@ -182,7 +183,7 @@ const Navbar = () => {
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
+                    <FaLinkedinIn className='hover:animate-spin' />
                   </div>
                 </a>
                 <a
@@ -191,7 +192,7 @@ const Navbar = () => {
                   rel='noreferrer'
                 >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub />
+                    <FaGithub className='hover:animate-spin' />
                   </div>
                 </a>
                 <Link href='/#contact'>
@@ -199,7 +200,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <AiOutlineMail />
+                    <AiOutlineMail className='hover:animate-spin'/>
                   </div>
                 </Link>
                 <Link href='/resume'>
@@ -207,7 +208,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
-                    <BsFillPersonLinesFill />
+                    <BsFillPersonLinesFill className='hover:animate-spin'/>
                   </div>
                 </Link>
               </div>
