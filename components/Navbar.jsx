@@ -62,7 +62,7 @@ const Navbar = () => {
               alt='/'
               width='70'
               height='50'
-              className='cursor-pointer hover:animate-spin'
+              className='cursor-pointer hover:animate-spin '
             />
           </a>
         </Link>
@@ -74,16 +74,16 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-zinc-800'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-slate-950'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-teal-400'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-green-500'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -91,7 +91,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden '
+            className='md:hidden animate-bounce'
           >
             <AiOutlineMenu size={30} />
           </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className='flex w-full items-center justify-between'>
+            <div className='flex w-full items-center justify-between '>
               <Link href='/'>
                 <a>
                   <Image
@@ -122,7 +122,7 @@ const Navbar = () => {
                     width='50'
                     height='40'
                     alt='/'
-                    className='hover:animate-spin '
+                    className='hover:animate-spin animate-bounce'
                   />
                 </a>
               </Link>

@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title> Jay | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,21 +17,21 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Jay William</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
               rel='noreferrer'
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={25} style={{ marginRight: '1.5rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={25} style={{ marginRight: '1.5rem' }} />
             </a>
           </div>
         </div>
@@ -81,7 +81,6 @@ const resume = () => {
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
           </p>
         </div>
 
@@ -92,7 +91,7 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            Exco IT-Service
             </span>
             <span className='px-2'>|</span>Dallas, TX
           </p>
