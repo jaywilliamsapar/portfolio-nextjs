@@ -12,7 +12,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f7240] tracking-wide
+    @apply bg-[#edf0ef] text-[#153554] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -20,18 +20,24 @@ html {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway] text-[#1f7240]
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl text-[#1f7240]
   }
   
   li {
-    @apply cursor-pointer
+    @apply cursor-pointer 
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#fafafa] to-[#0b1110] text-[#39bf21]
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#1f7240] to-[#2ac]  text-[#0b1110]
   }
 }
+
+/* text-[#1f7240] */ /* text-[#444440] */ /* text-[#153554] */
+/* text-[#0b1110] */
+
+
+

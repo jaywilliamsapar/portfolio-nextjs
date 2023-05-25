@@ -60,30 +60,30 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='70'
-              height='50'
+              width='60'
+              height='60'
               className='cursor-pointer hover:animate-spin '
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-zinc-800'>
+            <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-slate-950'>
+            <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-teal-400'>
+            <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-green-500'>
+            <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -93,7 +93,7 @@ const Navbar = () => {
             onClick={handleNav}
             className='md:hidden animate-bounce'
           >
-            <AiOutlineMenu size={30} />
+            <AiOutlineMenu size={27} className='hover:animate-spin text-[#1f7240]'/>
           </div>
         </div>
       </div>
@@ -109,32 +109,32 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#fff] p-10 ease-in duration-500 font-semibold'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#faf7f7] p-10 ease-in duration-500 font-semibold'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
           <div>
-            <div className='flex w-full items-center justify-between '>
+            <div className='flex w-full items-center justify-between'>
               <Link href='/'>
                 <a>
                   <Image
                     src={NavLogo}
                     width='50'
-                    height='40'
+                    height='50'
                     alt='/'
-                    className='hover:animate-spin animate-bounce'
+                    className=' z-20 hover:animate-spin'
                   />
                 </a>
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:animate-spin'
               >
                 <AiOutlineClose />
               </div>
             </div>
             <div className='border-b border-gray-300 my-4 '>
-              <p className='w-[85%] md:w-[90%] py-4 '>
+              <p className='w-[85%] md:w-[90%] py-4 text-center'>
                 Let&#39;s build something 🔥
               </p>
             </div>
@@ -142,73 +142,73 @@ const Navbar = () => {
           <div className='py-2 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
                   Projects
                 </li>
               </Link>
               <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
                   Resume
                 </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
                   Contact
                 </li>
               </Link>
             </ul>
             <div className='pt-5'>
-              <p className='uppercase tracking-widest text-[#594cce] font-semibold'>
+              <p className='uppercase tracking-widest text-[#a14cce] font-semibold text-center animate-bounce '>
                 Let&#39;s Connect
               </p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+              <div className='flex items-center justify-between my-4 w-full sm:w-[80%] animate-bounce ease-in-out	'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/williamsapar/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn className='hover:animate-spin' />
+                  <div className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300'>
+                    <FaLinkedinIn className='ease-in-out text-[#a14cce]' />
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/jaywilliamsapar'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub className='hover:animate-spin' />
+                  <div className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300'>
+                    <FaGithub className='ease-in-out text-[#a14cce]' />
                   </div>
                 </a>
                 <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300'
                   >
-                    <AiOutlineMail className='hover:animate-spin'/>
+                    <AiOutlineMail className='ease-in-out text-[#a14cce]'/>
                   </div>
                 </Link>
                 <Link href='/resume'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300'
                   >
-                    <BsFillPersonLinesFill className='hover:animate-spin'/>
+                    <BsFillPersonLinesFill className='ease-in-out text-[#a14cce]'/>
                   </div>
                 </Link>
               </div>
