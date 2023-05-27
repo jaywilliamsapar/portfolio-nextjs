@@ -7,6 +7,12 @@ import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
 
+import One from '../public/assets/projects/1.png'
+import Two from '../public/assets/projects/2.png'
+import Three from '../public/assets/projects/3.png'
+import Four from '../public/assets/projects/4.png'
+import Five from '../public/assets/projects/5.png'
+
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
