@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#f8e5dd]'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#e1f0ec]'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
