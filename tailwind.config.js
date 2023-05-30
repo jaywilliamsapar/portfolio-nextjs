@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      duke: ["Indie Flower", "cursive"],
+    }
   },
   plugins: [],
 };

@@ -67,7 +67,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex font-mono'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex font-duke font-bold'>
             <li className='ml-10 text-sm uppercase hover:border-b font-semibold'>
               <Link href='/'>Home</Link>
             </li>
@@ -133,12 +133,12 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4 '>
-              <p className='w-[85%] md:w-[90%] py-4 text-center'>
+              <p className='w-[85%] md:w-[90%] py-4 text-center font-duke'>
                 Let&#39;s build something 🔥
               </p>
             </div>
           </div>
-          <div className='py-2 flex flex-col'>
+          <div className='py-2 flex flex-col font-duke'>
             <ul className='uppercase'>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300'>
