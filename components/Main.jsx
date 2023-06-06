@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700 '> <span className='text-[#22a] hover:text-[#1f7240]'>Software</span> Engine<span className='text-[#22a] hover:text-[#1f7240]'>er</span></h1>
           <p className='py-4 text-gray-700 sm:max-w-[70%] m-auto'>
-            A Front-end web developer from Asia's latin city, Creating websites and applications
+            A Front-end web developer from Asia&#39;s latin city, Creating websites and applications
            both front end and integrating back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
