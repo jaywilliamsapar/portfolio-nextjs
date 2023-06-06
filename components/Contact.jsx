@@ -12,7 +12,7 @@ const Contact = () => {
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Contact
+          🤠
         </p>
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
@@ -28,15 +28,15 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Jay William</h2>
-                <p>Front-End Developer</p>
+                <p>Specialized in Front-End Devlopment</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk. 	
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8 font-bold text-center'>Connect With Me</p>
-                <div className='flex items-center justify-between py-12'>
+                <p className='uppercase pt-8 font-bold text-center text-[#5651e5]'>Connect With Me</p>
+                <div className='flex items-center justify-between py-12 text-[#5651e5]'>
                   <a
                     href='https://www.linkedin.com/in/clint-briley-50056920a/'
                     target='_blank'
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[#e1f0ec]'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-700 rounded-xl lg:p-4 bg-[#e1f0ec]'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className='flex flex-col '>
                     <label className=' text-sm py-2'>Name</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
                       type='text'
                       name='name'
                     />
@@ -93,7 +93,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
                       type='text'
                       name='phone'
                     />
@@ -102,7 +102,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className=' text-sm py-2 text-[#006964] font-semibold'>Email</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#006964]'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
                     type='email'
                     name='email'
                   />
@@ -110,7 +110,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className=' text-sm py-2 text-[#006964] font-semibold'>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#006964]'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
                     type='text'
                     name='subject'
                   />
@@ -118,12 +118,12 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className=' text-sm py-2 text-[#006964] font-semibold'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300 text-[#006964]'
+                    className='border-2 rounded-lg p-3 border-gray-300 text-[#1236]'
                     rows='8'
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4 animate-pulse'>
+                <button className='w-full p-4 mt-4 animate-bounce text-[#fff] hover:text-[#22a]'>
                   Send Message
                 </button>
               </form>
@@ -133,9 +133,9 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 bg-[#f8e5dd] hover:bg-[#22adff]'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 bg-[#f8e5dd] hover:bg-[#006964]'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#006964] animate-spin'
+                  className='text-[#006964] hover:text-[#ffff]'
                   size={40}
                 />
               </div>

@@ -18,9 +18,9 @@ const Projects = () => {
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Projects
+          ⚙
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
+        <h2 className='py-4'>Projects</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Property Finder'
@@ -33,24 +33,24 @@ const Projects = () => {
             backgroundImg={cryptoImg}
             projectUrl='/crypto'
             tech='React JS'
-
           />
           <ProjectItem
             title='Netflix App'
             backgroundImg={netflixImg}
             projectUrl='/netflix'
             tech='React JS'
-
           />
           <ProjectItem
             title='Twitch UI'
             backgroundImg={twitchImg}
             projectUrl='/twitch'
             tech='Next JS'
-
           />
         </div>
       </div>
+        <button className='mx-auto p-3 flex justify-center items-center bg-[#fff] text-[#5651e5] hover:bg-[#0b1110] hover:text-[#cc1]'>
+              <Link href='/moreprojects'>More Projects</Link>
+        </button>
     </div>
   );
 };

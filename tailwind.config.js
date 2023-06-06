@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      duke: ["Indie Flower", "cursive"],
+      duke: ["Indie Flower", "cursive", "Kufam"]
     }
   },
   plugins: [],

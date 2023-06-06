@@ -17,9 +17,9 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Jay William</h2>
+          <h2 className='text-center hover:text-[#33f]'>Jay William</h2>
           <div className='flex'>
-            <a
+            <a className='hover:text-[#22a]'
               href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
               rel='noreferrer'
@@ -61,31 +61,31 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Tech Stacks</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span> Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span> CSS
-            <span className='px-2'>|</span> Javascript
-            <span className='px-2'>|</span> React
-            <span className='px-2'>|</span> Next JS
-            <span className='px-2'>|</span> TypeScript
-            <span className='px-2'>|</span> Node
-            <span className='px-2'>|</span> Redux
-            <span className='px-2'>|</span> Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+        <div className='text-center py-4 font-bold'>
+          <h5 className='text-center underline text-[18px] py-2 text-[#1f7240]'>Tech Stacks</h5>
+          <p className='py-2 text-[#1f7240] font-duke'>
+            <span className='font-bold text-[#11dc]'>Technical Skills</span>
+            <span className='px-3 text-[#11dc]'>|</span> Front-End Web Development
+            <span className='px-2 text-[#11dc]'>|</span> HTML
+            <span className='px-2 text-[#11dc]'>|</span> CSS
+            <span className='px-2 text-[#11dc]'>|</span> JavaScript
+            <span className='px-2 text-[#11dc]'>|</span> React
+            <span className='px-2 text-[#11dc]'>|</span> TypeScript
+            <span className='px-2 text-[#11dc]'>|</span> Next.js
+            <span className='px-2 text-[#11dc]'>|</span> Node.js
+            <span className='px-2 text-[#11dc]'>|</span> Redux
+            <span className='px-2 text-[#11dc]'>|</span> Tailwind
+            <span className='px-2 text-[#11dc]'>|</span> Firebase
+            <span className='px-2 text-[#11dc]'>|</span> Axios
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            <span className='px-2'>|</span>Amazon Web : Identity Access Management (AIM)
+          <p className='py-2 font-duke font-bold'>
+            <span className='font-bold text-[#11dc] font-duke'>Amazon Web Services</span>
+            <span className='px-2 text-[#1f7240]'>|</span>Amazon Web Services Cloud
+            <span className='px-2 text-[#1f7240]'>|</span>AWS : Identity Access Management (AIM)
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className='text-center underline text-[18px] py-4 text-[#1f7240]'>
           Professional Experience
         </h5>
         {/* Experience */}
@@ -97,9 +97,9 @@ const resume = () => {
             <span className='px-2'>|</span>Zamboanga City, Phil
           </p>
           <p className='py-1 italic'>Jr. Front End Web Developer </p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <ul className='list-disc list-outside px-8 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
+               ⨝ Ensured comprehensive mobile responsive UI layouts with
               understanding of HTML, CSS, and JavaScript.
             </li>
             <li>

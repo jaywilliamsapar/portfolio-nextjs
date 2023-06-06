@@ -13,12 +13,12 @@ const Main = () => {
           Creativity&#39;  knows no boundaries
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#1f7240]'> Jay </span>
+            Hoola, I&#39;m <span className='text-[#1f7240] hover:text-[#22a]'> Jay </span>
           </h1>
-          <h1 className='py-2 text-gray-700 '> Front-End Web Developer</h1>
+          <h1 className='py-2 text-gray-700 '> <span className='text-[#22a] hover:text-[#1f7240]'>Software</span> Engine<span className='text-[#22a] hover:text-[#1f7240]'>er</span></h1>
           <p className='py-4 text-gray-700 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive Front-end web applications
-            integrating back-end technologies.
+            A Front-end web developer from Asia's latin city, Creating websites and applications
+           both front end and integrating back-end technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
@@ -26,8 +26,8 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn className=' hover:animate-spin text-[#a14cce]'/>
+              <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#f8e5dd]'>
+                <FaLinkedinIn className=' hover:animate-spin text-[#1f7240]'/>
               </div>
             </a>
             <a
@@ -35,18 +35,18 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub className=' hover:animate-spin text-[#a14cce]'/>
+              <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#f8e5dd]'>
+                <FaGithub className=' hover:animate-spin text-[#1f7240]'/>
               </div>
             </a>
             <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail className=' hover:animate-spin text-[#a14cce]'/>
+              <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#f8e5dd]'>
+                <AiOutlineMail className=' hover:animate-spin text-[#1f7240]'/>
               </div>
             </Link>
             <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill className=' hover:animate-spin text-[#a14cce]'/>
+              <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#f8e5dd]'>
+                <BsFillPersonLinesFill className=' hover:animate-spin text-[#1f7240]'/>
               </div>
             </Link>
           </div>
