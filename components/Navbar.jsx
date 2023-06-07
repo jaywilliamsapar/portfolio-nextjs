@@ -68,7 +68,7 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold animate-character'>
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
@@ -133,7 +133,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4 '>
-              <p className='w-[85%] md:w-[90%] py-4 text-center font-duke'>
+              <p className='w-[85%] md:w-[90%] py-4 text-center font-duke animate-character'>
                 Let&#39;s build something 🔥
               </p>
             </div>
@@ -172,10 +172,10 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-5'>
-              <p className='uppercase tracking-widest text-[#a14cce] font-semibold text-center animate-bounce '>
+              <p className='uppercase tracking-widest text-[#a14cce] font-semibold text-center animate-bounce'>
                 Let&#39;s Connect
               </p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%] animate-bounce ease-in-out	'>
+              <div className='flex items-center justify-between my-4 w-full sm:w-[80%] animate-bounce ease-in-out'>
                 <a
                   href='https://www.linkedin.com/in/williamsapar/'
                   target='_blank'

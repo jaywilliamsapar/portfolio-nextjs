@@ -27,7 +27,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Jay William</h2>
+                <h2 className='py-2 animate-character'>Jay William</h2>
                 <p>Specialized in Front-End Devlopment</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
@@ -123,7 +123,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 mt-4 animate-bounce text-[#fff] hover:text-[#22a]'>
+                <button className='w-full p-4 mt-4 text-[#fff] hover:text-[#22a] animate-character'>
                   Send Message
                 </button>
               </form>

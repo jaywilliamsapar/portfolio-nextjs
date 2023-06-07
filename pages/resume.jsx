@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FcApproval } from 'react-icons/fc';
 
 const resume = () => {
   return (
@@ -15,23 +16,30 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
+        <h2 className='text-center text-[#11dc]'>Resume</h2>
+        <div className='bg-[#99aab5] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center hover:text-[#33f]'>Jay William</h2>
           <div className='flex'>
-            <a className='hover:text-[#22a]'
+            <a className='text-[#22a] hover:text-[#1f7240]'
               href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={25} style={{ marginRight: '1.5rem' }} />
             </a>
-            <a
+            <a className='text-[#22a] hover:text-[#1f7240]'
               href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
             >
               <FaGithub size={25} style={{ marginRight: '1.5rem' }} />
+            </a>
+            <a className='text-[#22a] hover:text-[#1f7240]'
+              href='https://github.com/jaywilliamsapar'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FcApproval size={25} style={{ marginRight: '1.5rem' }} />
             </a>
           </div>
         </div>
@@ -62,8 +70,8 @@ const resume = () => {
 
         {/* Skills */}
         <div className='text-center py-4 font-bold'>
-          <h5 className='text-center underline text-[18px] py-2 text-[#1f7240]'>Tech Stacks</h5>
-          <p className='py-2 text-[#1f7240] font-duke'>
+          <h5 className='text-center underline text-[18px] py-2 text-[#1f7240] '>Tech Stacks</h5>
+          <p className='py-2 text-[#1f7240] '>
             <span className='font-bold text-[#11dc]'>Technical Skills</span>
             <span className='px-3 text-[#11dc]'>|</span> Front-End Web Development
             <span className='px-2 text-[#11dc]'>|</span> HTML
@@ -78,10 +86,10 @@ const resume = () => {
             <span className='px-2 text-[#11dc]'>|</span> Firebase
             <span className='px-2 text-[#11dc]'>|</span> Axios
           </p>
-          <p className='py-2 font-duke font-bold'>
-            <span className='font-bold text-[#11dc] font-duke'>Amazon Web Services</span>
-            <span className='px-2 text-[#1f7240]'>|</span>Amazon Web Services Cloud
-            <span className='px-2 text-[#1f7240]'>|</span>AWS : Identity Access Management (AIM)
+          <p className='py-2  font-bold'>
+            <span className='font-bold text-[#11dc]'>Amazon Web Services</span>
+            <span className='px-2 text-[#1f7240]'> | Amazon Web Services Cloud</span>
+            <span className='px-2 text-[#1f7240]'> | AWS : Identity Access Management (AIM)</span>
           </p>
         </div>
 
