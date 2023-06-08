@@ -23,7 +23,7 @@ const Skills = () => {
         <h2 className='py-4'>Skills</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#10f] to-[#2ca] cursor-pointer hover:animate-bounce'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center '>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>

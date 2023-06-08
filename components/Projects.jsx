@@ -48,7 +48,7 @@ const Projects = () => {
           />
         </div>
       </div>
-        <button className='mx-auto p-3 flex justify-center items-center bg-[#fff] text-[#5651e5] hover:bg-[#0b1110] hover:text-[#cc1]'>
+        <button className='mx-auto p-3 flex justify-center items-center bg-[#fff] text-[#5651e5] hover:bg-[#0b1110] hover:text-[#cc1] glow-on-hover'>
               <Link href='/moreprojects'>More Projects</Link>
         </button>
     </div>
