@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className='uppercase pt-8 font-bold text-center text-[#5651e5]'>Connect With Me</p>
                 <div className='flex items-center justify-between py-12 text-[#5651e5]'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/williamsapar/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/jaywilliamsapar'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -55,7 +55,6 @@ const Contact = () => {
                       <FaGithub width='30'/>
                     </div>
                   </a>
-
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-125 ease-in duration-300 bg-[#f8e5dd]'>
                     <AiOutlineMail />
                   </div>
