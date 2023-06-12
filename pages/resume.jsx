@@ -1,7 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaFilePdf } from 'react-icons/fa';
 import { FcApproval } from 'react-icons/fc';
+
 
 const resume = () => {
   return (
@@ -17,9 +18,16 @@ const resume = () => {
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center text-[#11dc]'>Resume</h2>
-        <div className='bg-[#99aab5] my-4 p-4 w-full flex justify-between items-center'>
+        <div className='bg-[#CBC8C7] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center hover:text-[#33f]'>Jay William</h2>
           <div className='flex'>
+          <a className='text-[#22a] hover:text-[#1f7240] '
+              href='https://www.linkedin.com/in/williamsapar/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FcApproval size={25} style={{ marginRight: '1.5rem' }} />
+            </a>
             <a className='text-[#22a] hover:text-[#1f7240]'
               href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
@@ -32,14 +40,20 @@ const resume = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <FaGithub size={25} style={{ marginRight: '1.5rem' }} />
+              <FaGithub size={25} style={{ marginRight: '1.5rem'}} />
             </a>
             <a className='text-[#22a] hover:text-[#1f7240]'
               href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
             >
-              <FcApproval size={25} style={{ marginRight: '1.5rem' }} />
+            </a>
+            <a className='text-[#22a] hover:text-[#1f7240] animate-bounce hover:text-anchor'
+              href='https://drive.google.com/file/d/1WAoP5-w3KH4qWRvVgx0plqfa9uYhVuuL/view?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+            >
+            <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40f02]'  />
             </a>
           </div>
         </div>
@@ -93,7 +107,7 @@ const resume = () => {
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4 text-[#1f7240]'>
+        <h5 className='text-center underline text-[18px] py-4 text-[#1f7240] font-bold'>
           Professional Experience
         </h5>
         {/* Experience */}
@@ -134,11 +148,11 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Zamboanga City, Phil
           </p>
-          <p className='py-1 italic'>Creating a Landing page for client new products</p>
+          <p className='py-1 italic'>Creating a Landing page for client small shop</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
+              In 2020 I started to learn Coding, on YouTube channel focused on
+              building website learning in web development, specifically
               front-end development.
             </li>
             <li>
@@ -150,7 +164,7 @@ const resume = () => {
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className='text-center underline text-[18px] py-4 font-bold text-[#1f7240]'>
           Other Professional Work Experience
         </h5>
       
@@ -163,30 +177,20 @@ const resume = () => {
           <p className='py-1 italic'>Office Engineer / Field Engineer (2015 – 2019)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+            Assist with the preparation of project proposals, bids, and contracts.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+            Prepare progress reports and other project documentation.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
+            Conduct field surveys and inspections to gather data for engineering designs.
             </li>
             <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
+            Work collaboratively with project managers and other team members to ensure that projects are completed on time and within budget.
             </li>
             <li>
               Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              certifications including Microsoft tools, Advanced TL Support,
             </li>
           </ul>
         </div>

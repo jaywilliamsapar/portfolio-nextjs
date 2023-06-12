@@ -14,7 +14,7 @@ import ProjectItem from './ProjectItem'
 
 const MoreProject = () => {
   return (
-    <div id='projects' className='w-full bg-[#222f]'>
+    <div id='projects' className='w-full bg-[#444955]'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <div className='grid md:grid-cols-3 gap-10 pt-10'>
           <MoreProjectItems
@@ -53,19 +53,30 @@ const MoreProject = () => {
             projectUrl='/4'
             tech='Next JS'
           />
+          {/* <ProjectItem
+            title='Twitch UI'
+            backgroundImg={Four}
+            projectUrl='/4'
+            tech='Next JS'
+          />
+           <ProjectItem
+            title='Twitch UI'
+            backgroundImg={Five}
+            projectUrl='/4'
+            tech='Next JS'
+          />
+            <ProjectItem
+            title='Twitch UI'
+            backgroundImg={Two}
+            projectUrl='/4'
+            tech='Next JS'
+          /> */}
         </div>
       </div >
       <div className='flex justify-center py-12'>
-          <Link href='/#projects'>
-            <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-125 ease-in duration-300 bg-[#f8e5dd] hover:bg-[#0b1110]'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#006964] hover:text-[#ffff]'
-                  size={30}
-                />
-              </div>
-            </a>
-          </Link>
+      <button className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#cc1] glow-on-hover'>
+              <Link href='/#projects'>Back</Link>
+      </button>
         </div>
     </div>
   )

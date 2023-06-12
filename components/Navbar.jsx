@@ -62,13 +62,13 @@ const Navbar = () => {
               alt='/'
               width='80'
               height='70'
-              className='cursor-pointer hover:animate-bounce'
+              className='cursor-pointer hover:animate-spin'
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold animate-character'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold '>
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
@@ -83,7 +83,7 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold animate-character'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -91,7 +91,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden animate-bounce'
+            className='md:hidden animate-bounce animate-character'
           >
             <AiOutlineMenu size={27} className='hover:animate-spin text-[#1f7240]'/>
           </div>
