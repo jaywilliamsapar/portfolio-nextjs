@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn, FaFilePdf } from 'react-icons/fa';
 import { FcApproval } from 'react-icons/fc';
+import { MdOutlinePsychology } from 'react-icons/md';
 
 
 const resume = () => {
@@ -17,7 +18,7 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center text-[#11dc]'>Resume</h2>
+        <h2 className='text-center'>Resume</h2>
         <div className='bg-[#CBC8C7] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center hover:text-[#33f]'>Jay William</h2>
           <div className='flex'>
@@ -53,7 +54,14 @@ const resume = () => {
               target='_blank'
               rel='noreferrer'
             >
-            <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40f02]'  />
+            <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40f02] hover:text-[#23fa]'  />
+            </a>
+            <a className='text-[#22a] hover:text-[#1f7240] hover:text-anchor'
+              href='https://drive.google.com/file/d/1Kxd-Op3Yf3zqqrGKWSa_Nz8lQdztJQJZ/view?usp=drive_link'
+              target='_blank'
+              rel='noreferrer'
+            >
+            <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#23fa]'  />
             </a>
           </div>
         </div>
