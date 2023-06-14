@@ -61,7 +61,7 @@ const resume = () => {
               target='_blank'
               rel='noreferrer'
             >
-            <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#23fa]'  />
+            <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#030303df]'  />
             </a>
           </div>
         </div>
