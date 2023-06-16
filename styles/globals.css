@@ -49,13 +49,14 @@ html {
 .animate-character
 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
+    #44107a 25%,
+    #ff1361 50%,
+    #fff800 75%,
+    #873298 90%,
+    #ce982d 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -179,12 +180,12 @@ html {
   height: 50px;
   border: none;
   outline: none;
-  color: #fff;
-  background: #111;
+  color: rgb(238, 161, 46);
+  background: rgb(22, 20, 20);
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .glow-on-hover:before {
@@ -231,5 +232,6 @@ html {
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
+  80% { background-position: 150% 0; }
   100% { background-position: 0 0; }
 }
