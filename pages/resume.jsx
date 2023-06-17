@@ -18,9 +18,9 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#CBC8C7] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center hover:text-[#33f]'>Jay William</h2>
+        <h2 className='text-center '>Resume</h2>
+        <div className='bg-gradient-to-r from-[#73b267] to-[#2ec4b6] my-4 p-4 w-full flex justify-between items-center'>
+          <h2 className='text-center hover:text-[#33f] animate-character flex'>Jay William</h2>
           <div className='flex'>
           <a className='text-[#22a] hover:text-[#1f7240] '
               href='https://www.linkedin.com/in/williamsapar/'
@@ -29,14 +29,14 @@ const resume = () => {
             >
               <FcApproval size={25} style={{ marginRight: '1.5rem' }} />
             </a>
-            <a className='text-[#22a] hover:text-[#1f7240]'
+            <a className='text-[#000814] hover:text-[#1f7240]'
               href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={25} style={{ marginRight: '1.5rem' }} />
             </a>
-            <a className='text-[#22a] hover:text-[#1f7240]'
+            <a className='text-[#000814] hover:text-[#1f7240]'
               href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
