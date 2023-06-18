@@ -14,7 +14,7 @@ import ProjectItem from './ProjectItem'
 
 const MoreProject = () => {
   return (
-    <div id='projects' className='w-full bg-[#444955]'>
+    <div id='projects' className='w-full bg-gradient-to-r from-[#6497b1] to-[#99aab5]'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <div className='grid md:grid-cols-3 gap-10 pt-10'>
           <MoreProjectItems
