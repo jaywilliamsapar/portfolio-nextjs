@@ -18,37 +18,37 @@ const MoreProject = () => {
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <div className='grid md:grid-cols-3 gap-10 pt-10'>
           <MoreProjectItems
-            title='Real State'
+            title='App name'
             backgroundImg={One}
             projectUrl='/1'
             tech='React JS'
           />
           <ProjectItem
-            title='Crypto App'
+            title='App Name'
             backgroundImg={Two}
             projectUrl='/2'
             tech='React JS'
           />
           <ProjectItem
-            title='Netflix App'
+            title='App name'
             backgroundImg={Three}
             projectUrl='/3'
             tech='React JS'
           />
           <ProjectItem
-            title='Twitch UI'
+            title='Appnme'
             backgroundImg={Four}
             projectUrl='/4'
             tech='Next JS'
           />
            <ProjectItem
-            title='Twitch UI'
+            title='Apname'
             backgroundImg={Five}
             projectUrl='/4'
             tech='Next JS'
           />
             <ProjectItem
-            title='Twitch UI'
+            title='Appname'
             backgroundImg={Two}
             projectUrl='/4'
             tech='Next JS'
