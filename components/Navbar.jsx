@@ -68,7 +68,7 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold '>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
@@ -93,7 +93,7 @@ const Navbar = () => {
             onClick={handleNav}
             className='md:hidden animate-bounce animate-character'
           >
-            <AiOutlineMenu size={27} className='hover:animate-spin text-[#1f7240]'/>
+            <AiOutlineMenu size={27} className='hover:animate-spin text-[#1f7240]' />
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
       <div
         className={
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-            
+
         {/* Side Drawer Menu */}
         <div
           className={
@@ -199,7 +199,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300 bg-[#f8e5dd]'
                   >
-                    <AiOutlineMail className='ease-in-out text-[#a14cce]'/>
+                    <AiOutlineMail className='ease-in-out text-[#a14cce]' />
                   </div>
                 </Link>
                 <Link href='/resume'>
@@ -207,7 +207,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300 bg-[#f8e5dd]'
                   >
-                    <BsFillPersonLinesFill className='ease-in-out text-[#a14cce] animate-spin '/>
+                    <BsFillPersonLinesFill className='ease-in-out text-[#a14cce] animate-spin ' />
                   </div>
                 </Link>
               </div>

@@ -12,9 +12,12 @@ import Five from '../public/assets/projects/5.png'
 import MoreProjectItems from './MoreProjectItems'
 import ProjectItem from './ProjectItem'
 
+
+
+
 const MoreProject = () => {
   return (
-    <div id='projects' className='w-full bg-gradient-to-r from-[#6497b1] to-[#99aab5]'>
+    <div id='projects' className='w-full bg-gradient-to-r from-[#e5ebe5] to-[#9bb8ba]'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <div className='grid md:grid-cols-3 gap-10 pt-10'>
           <MoreProjectItems
@@ -74,8 +77,11 @@ const MoreProject = () => {
         </div>
       </div >
       <div className='flex justify-center py-12'>
-      <button className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#cc1] glow-on-hover'>
+      <button className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#e5bb16] glow-on-hover'>
               <Link href='/#projects'>Back</Link>
+      </button>
+      <button className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#e5bb16] glow-on-hover'>
+              <Link href='/#projects'>Next</Link>
       </button>
         </div>
     </div>
@@ -85,7 +91,7 @@ const MoreProject = () => {
 export default MoreProject
 
 
-{/* 
+{/*
           />
            <ProjectItem
             title='Twitch UI'
