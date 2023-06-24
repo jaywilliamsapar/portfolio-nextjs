@@ -146,7 +146,7 @@ const resume = () => {
             </li>
           </ul>
         </div>
-
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempore dolor nulla alias, odit error maxime similique non sed temporibus! Sed, enim quasi! Quos, ipsam fugit, rem aspernatur alias esse sint delectus placeat quidem ex doloribus, pariatur facilis labore modi fuga distinctio exercitationem! Neque laudantium tempore minima laborum, itaque ab recusandae culpa, deserunt iste obcaecati eaque dolorum quasi velit hic impedit sunt. Perspiciatis voluptas, non, quae explicabo nesciunt assumenda enim porro doloremque fuga, fugiat repellendus. Maiores harum deserunt facilis doloribus!</p>
 
         {/* Personal Experience */}
         <div className='py-6'>
