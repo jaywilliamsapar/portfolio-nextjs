@@ -20,6 +20,30 @@ const Sparkbang = () => {
           scrolling="no"
           allowFullScreen
         ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/7ysu2/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/8etz9/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/8eu5y/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
 
 
 
