@@ -1,0 +1,31 @@
+/* Text Animation */
+
+.animate-character
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(
+    -225deg,
+    #13713b 0%,
+    #44107a 10%,
+    #ff5e13 20%,
+    #fff70096 30%,
+    #13ff42b1 40%,
+    #fff800 50%,
+    #873298d9 60%,
+    #ff1361 70%,
+    #fff700c7 80%,
+    #ff1362d4 90%,
+    #a819bb 95%,
+    #63ce2d 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgb(247, 75, 23);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+}

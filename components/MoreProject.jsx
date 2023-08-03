@@ -17,9 +17,10 @@ import ProjectItem from './ProjectItem'
 
 const MoreProject = () => {
   return (
+    <div>
     <div id='projects' className='w-full bg-gradient-to-r from-[#e5ebe5] to-[#9bb8ba]'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <div className='grid md:grid-cols-3 gap-10 pt-10'>
+        <div className='grid md:grid-cols-3 gap-10 pt-10'>  
           <MoreProjectItems
             title='App name'
             backgroundImg={One}
@@ -39,19 +40,19 @@ const MoreProject = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Appnme'
+            title='App name'
             backgroundImg={Four}
             projectUrl='/4'
             tech='Next JS'
           />
            <ProjectItem
-            title='Apname'
+            title='App name'
             backgroundImg={Five}
             projectUrl='/4'
             tech='Next JS'
           />
             <ProjectItem
-            title='Appname'
+            title='App name'
             backgroundImg={Two}
             projectUrl='/4'
             tech='Next JS'
@@ -77,7 +78,7 @@ const MoreProject = () => {
         </div>
       </div >
       <div className='flex justify-center py-12'>
-      <button className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#e5bb16] glow-on-hover'>
+      <button href='/#projects' className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#e5bb16] glow-on-hover'>
               <Link href='/#projects'>Back</Link>
       </button>
       <button className='mx-auto p-3 flex justify-center items-center text-[#5651e5] hover:bg-[#0b1110] hover:text-[#e5bb16] glow-on-hover'>
@@ -85,13 +86,15 @@ const MoreProject = () => {
       </button>
         </div>
     </div>
+    
+    </div>
   )
 }
 
 export default MoreProject
 
 
-{/*
+  {/*
           />
            <ProjectItem
             title='Twitch UI'
@@ -122,4 +125,5 @@ export default MoreProject
             backgroundImg={One}
             projectUrl='/4'
             tech='Next JS'
-          /> */}
+          /> */
+        }

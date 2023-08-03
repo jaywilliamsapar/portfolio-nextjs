@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase'>
+        <p className='text-xl tracking-widest uppercase animate-bounce'>
           🏆
         </p>
         <h2 className='py-4'>Tech Skills</h2>
@@ -42,7 +42,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#829bb1] to-[#2ca] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
@@ -52,7 +52,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#829bb1] to-[#2ca] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca]  cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
@@ -62,7 +62,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#e8e9eb] to-[#83d1a2] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#d58242c2] to-[#83d1a2] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Tailwind} width='64px' height='64px' alt='/' />
@@ -72,7 +72,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#e8e9eb] to-[#83d1a2] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#d58242c2] to-[#83d1a2] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Firebase} width='64px' height='64px' alt='/' />
@@ -102,7 +102,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#10f] to-[#2ca] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#00c8ffae] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Node} width='64px' height='64px' alt='/' />
@@ -112,7 +112,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#10f] to-[#2ca] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#00c8ffae] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={Canva} width='64px' height='64px' alt='/' />
@@ -122,7 +122,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#10f] to-[#2ca] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#00c8ffae] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={AWS} width='64px' height='64px' alt='/' />
@@ -132,7 +132,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#10f] to-[#2ca] cursor-pointer hover:animate-bounce'>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#00c8ffae] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={MongoDB} width='64px' height='64px' alt='/' />

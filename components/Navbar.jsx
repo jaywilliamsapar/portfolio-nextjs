@@ -62,13 +62,13 @@ const Navbar = () => {
               alt='/'
               width='80'
               height='70'
-              className='cursor-pointer hover:animate-spin'
+              className='cursor-pointer'
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:border-b hover:text-[#1f7240] text-gray-700 font-bold'>
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
@@ -108,7 +108,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#faf7f7] p-10 ease-in duration-500 font-semibold'
+              ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#e7e4e4] p-10 ease-in duration-500 font-semibold'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -207,7 +207,7 @@ const Navbar = () => {
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-600 p-3 cursor-pointer hover:scale-150 ease-in duration-300 bg-[#f8e5dd]'
                   >
-                    <BsFillPersonLinesFill className='ease-in-out text-[#a14cce] animate-spin ' />
+                    <BsFillPersonLinesFill className='ease-in-out text-[#a14cce] animate-bounce' />
                   </div>
                 </Link>
               </div>

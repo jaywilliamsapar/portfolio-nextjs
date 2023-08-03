@@ -16,7 +16,7 @@ html {
  
 @layer base {
   body {
-    @apply bg-[#edf0ef] text-[#153554] tracking-wide
+    @apply bg-[#edf0efde] text-[#153554] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -52,22 +52,28 @@ html {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 25%,
-    #ff1361 50%,
-    #fff800 75%,
-    #873298 90%,
-    #ce982d 100%
+    #13713b 3%,
+    #44107a 10%,
+    #ff5e13 20%,
+    #fff70096 30%,
+    #13ff42b1 40%,
+    #fff800 50%,
+    #873298d9 60%,
+    #ff1361 70%,
+    #fff700c7 80%,
+    #ff1362d4 90%,
+    #a819bb 95%,
+    #63ce2d 100%
   );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: rgb(247, 75, 23);
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
+  animation: textclip 5s linear infinite;
   display: inline-block;
 }
 
@@ -76,6 +82,136 @@ html {
     background-position: 200% center;
   }
 }
+
+
+.animate-d
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(
+    -225deg,
+    #13713cc8 3%,
+    #43107acb 10%,
+    #ff5e13cd 20%,
+    #fff70096 30%,
+    #13ff42b1 40%,
+    #fff700da 50%,
+    #873298d9 60%,
+    #ff1362bb 70%,
+    #fff700c7 80%,
+    #ff1362d4 90%,
+    #a819bbb8 95%,
+    #63ce2dce 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgb(247, 75, 23);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.save {
+  color: #0e0d0db7;
+  font-family: fantasy;
+}
+
+.save2 {
+  color: #0a0a0ad7;
+  font-family: fantasy;
+}
+
+.font_D {
+  font-family: 'Poppins';
+}
+
+.tech-list {
+  color: rgba(205, 67, 17, 0.751)
+}
+
+
+@keyframes pulse {
+  50% {
+      opacity: .7;
+  }
+}
+.animate-pulse {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, .7) infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* @layer base {
@@ -103,9 +239,6 @@ html {
     @apply font-semibold shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#1f7240] to-[#2ac]  text-[#0b1110]
   }
 } */
-
-
-
 
 
 /* * {

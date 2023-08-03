@@ -9,7 +9,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title> Jay | Resume</title>
+        <title> Jαγ Williαm | Resuⅿe 🧩 </title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -19,8 +19,8 @@ const resume = () => {
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center '>Resume</h2>
-        <div className='bg-gradient-to-r from-[#73b267] to-[#2ec4b6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center hover:text-[#33f] animate-character flex'>Jay William</h2>
+        <div className='bg-gradient-to-r from-[#2f2e2ee5] to-[#3ba89d] my-4 p-4 w-full flex justify-between items-center rounded-lg'>
+          <h2 className='text-center hover:text-[#33f] animate-character flex'> Jay William</h2>
           <div className='flex'>
             <a className='text-[#22a] hover:text-[#1f7240] '
               href='https://www.linkedin.com/in/williamsapar/'
@@ -29,39 +29,39 @@ const resume = () => {
             >
               <FcApproval size={25} style={{ marginRight: '1.5rem' }} />
             </a>
-            <a className='text-[#000814] hover:text-[#1f7240]'
+            <a className='text-[#000814c9] hover:text-[#37e77d]'
               href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={25} style={{ marginRight: '1.5rem' }} />
             </a>
-            <a className='text-[#000814] hover:text-[#1f7240]'
+            <a className='text-[#000814c9] hover:text-[#37e77d]'
               href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
             >
-              <FaGithub size={25} style={{ marginRight: '1.5rem' }} />
+              <FaGithub size={25} style={{ marginRight: '1.5rem' }}/>
             </a>
-            <a className='text-[#22a] hover:text-[#1f7240]'
+            <a className='text-[#22a] hover:text-[#37e77d]'
               href='https://github.com/jaywilliamsapar'
               target='_blank'
               rel='noreferrer'
             >
             </a>
-            <a className='text-[#22a] hover:text-[#1f7240] animate-bounce hover:text-anchor'
+            <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor'
               href='https://drive.google.com/file/d/1WAoP5-w3KH4qWRvVgx0plqfa9uYhVuuL/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
-              <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40f02] hover:text-[#23fa]' />
+              <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#000814c9] hover:text-[#37e77d]' />
             </a>
-            <a className='text-[#22a] hover:text-[#1f7240] hover:text-anchor'
+            <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor animate-bounce'
               href='https://drive.google.com/file/d/1Kxd-Op3Yf3zqqrGKWSa_Nz8lQdztJQJZ/view?usp=drive_link'
               target='_blank'
               rel='noreferrer'
             >
-              <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#030303df]' />
+              <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40e02d1] hover:text-[#e4533ded]' />
             </a>
           </div>
         </div>
@@ -79,7 +79,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
+          Analytical, innovative, and motivated web developer professional
           with experience in customer service, team leadership, and
           organizational effectiveness in fast-paced and challenging
           environments. Adept at developing strategies and driving streamlined
@@ -92,31 +92,31 @@ const resume = () => {
 
         {/* Skills */}
         <div className='text-center py-4 font-bold'>
-          <h5 className='text-center underline text-[18px] py-2 text-[#1f7240] '>Tech Stacks</h5>
+          <h5 className='text-[20px] py-2 save2'>TECH STACK</h5>
           <p className='py-2 text-[#1f7240] '>
-            <span className='font-bold text-[#11dc]'>Technical Skills</span>
-            <span className='px-3 text-[#11dc]'>|</span> Front-End Web Development
-            <span className='px-2 text-[#11dc]'>|</span> HTML
-            <span className='px-2 text-[#11dc]'>|</span> CSS
-            <span className='px-2 text-[#11dc]'>|</span> JavaScript
-            <span className='px-2 text-[#11dc]'>|</span> React
-            <span className='px-2 text-[#11dc]'>|</span> TypeScript
-            <span className='px-2 text-[#11dc]'>|</span> Next.js
-            <span className='px-2 text-[#11dc]'>|</span> Node.js
-            <span className='px-2 text-[#11dc]'>|</span> Redux
-            <span className='px-2 text-[#11dc]'>|</span> Tailwind
-            <span className='px-2 text-[#11dc]'>|</span> Firebase
-            <span className='px-2 text-[#11dc]'>|</span> Axios
+            <span className='font-bold save'>Technologies</span>
+            <span className='px-3 tech-list'>|</span> Front-End Web Development
+            <span className='px-2 tech-list'>|</span> HTML
+            <span className='px-2 tech-list'>|</span> CSS
+            <span className='px-2 tech-list'>|</span> JavaScript
+            <span className='px-2 tech-list'>|</span> React
+            <span className='px-2 tech-list'>|</span> TypeScript
+            <span className='px-2 tech-list'>|</span> Next.js
+            <span className='px-2 tech-list'>|</span> Node.js
+            <span className='px-2 tech-list'>|</span> Redux
+            <span className='px-2 tech-list'>|</span> Tailwind
+            <span className='px-2 tech-list'>|</span> Firebase
+            <span className='px-2 tech-list'>|</span> Axios
           </p>
           <p className='py-2  font-bold'>
-            <span className='font-bold text-[#11dc]'>Amazon Web Services</span>
+            <span className='font-bold save'>Amazon Web Services</span>
             <span className='px-2 text-[#1f7240]'> | Amazon Web Services Cloud</span>
             <span className='px-2 text-[#1f7240]'> | AWS : Identity Access Management (AIM)</span>
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4 text-[#1f7240] font-bold'>
-          Professional Experience
+        <h5 className='text-center text-[18px] py-4 text-[#1f7240] font-bold save2'>
+          WORK EXPERIENCE
         </h5>
         {/* Experience */}
         <div className='py-6'>
@@ -146,7 +146,7 @@ const resume = () => {
             </li>
           </ul>
         </div>
-        <p>I enjoyed working with these company a lot of talented person and great work ethic, Where I gained my Experience in Software Development. I appreciated working with them even though I am not a Computer Science Degree, They help me when I get stuck on a certain task.</p>
+        <p>I enjoyed working in these company a lot of talented person and great work ethic, Where I gained my experience in Software Development. I appreciated working with them even though I am not a CS Degree, They help me when I get stuck on a certain task.</p>
 
         {/* Personal Experience */}
         <div className='py-6'>
