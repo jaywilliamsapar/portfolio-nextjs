@@ -9,10 +9,10 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title> Jαγ Williαm | Resuⅿe 🧩 </title>
+        <title> Jay William | Resuⅿe 🧩 </title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='React Front End Developer'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -118,7 +118,7 @@ const resume = () => {
         <h5 className='text-center text-[18px] py-4 text-[#1f7240] font-bold save2'>
           WORK EXPERIENCE
         </h5>
-        {/* Experience */}
+        {/* WORK EXPERIENCES */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -148,7 +148,8 @@ const resume = () => {
         </div>
         <p>I enjoyed working in these company a lot of talented person and great work ethic, Where I gained my experience in Software Development. I appreciated working with them even though I am not a CS Degree, They help me when I get stuck on a certain task.</p>
 
-        {/* Personal Experience */}
+        {/* OTHER WORK EXPERIENCES */}
+
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>

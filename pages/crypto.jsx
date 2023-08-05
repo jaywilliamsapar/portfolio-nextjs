@@ -32,7 +32,7 @@ const crypto = () => {
             hosted on Firebase. This application supports user authentication
             using firebase. Users are able to create a new account using their
             email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
+            list. This is made possible by creating a firestore cloud storage
             database at the time of user registration. Another feature of this
             application is dynamic routing through the &quot;React Router DOM&quot;
             package. This application was built using the Coin Gecko API.
