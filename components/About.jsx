@@ -15,7 +15,7 @@ const About = () => {
           <h2 className='py-4 gradient-text'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive Front-end UI applications
-            that connect with API’s and other backend technologies. I’m
+            that connect with API&#39;s and other backend technologies. I&#39;m
             passionate about learning new technologies and understand there is
             more than one way to accomplish a task. Though I am most proficient
             in building front-end applications using <span className='font-semibold text-[#006964]'>HTML, CSS, Javascript</span>, and <span className='font-semibold text-[#006964]'>React</span>, I am a quick learner and can pick up new tech stacks as
@@ -23,7 +23,7 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-           I work in a construction firm for 5 years, We’re I gained my skills for project management, detailed oriented skilled, and project skilled development. I am currently working as a Full Stack Web Dev. I do freelance work and always looking for new opportunities.
+           I work in a construction firm for 5 years, We&#39;re I gained my skills for project management, detailed oriented skilled, and project skilled development. I am currently working as a Full Stack Web Dev. I do freelance work and always looking for new opportunities.
           </p>
           <Link href='/#projects'>
             <p className='py-2 underline cursor-pointer font-semibold text-yellow-600'>

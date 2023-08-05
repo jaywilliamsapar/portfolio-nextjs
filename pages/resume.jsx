@@ -182,7 +182,7 @@ const resume = () => {
             <span className='font-bold'>Junior Civil Engineer </span>
             <span className='px-2'>|</span>E.G. AYOMA Construction & Enterprises
           </p>
-          <p className='py-1 italic'>Office Engineer (2015 – 2019)</p>
+          <p className='py-1 italic'>Office Engineer (2015 U+002d 2019)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Assist with the preparation of project proposals, bids, and contracts.
@@ -207,7 +207,7 @@ const resume = () => {
             <span className='font-bold'>Junior Field Engineer</span>
             <span className='px-2'>|</span>RCM Construction Supplies & Enterprises
           </p>
-          <p className='py-1 italic'>Assisting Project Engineer (2013 – 2015)</p>
+          <p className='py-1 italic'>Assisting Project Engineer (2013 U+002d 2015)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               <span className='font-semibold text-gray-700'>Project Planning: </span>
