@@ -18,7 +18,7 @@ const resume = () => {
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center '>Resume</h2>
+        <h2 className='text-center grad-text'>Resume</h2>
         <div className='bg-gradient-to-r from-[#2f2e2ee5] to-[#3ba89d] my-4 p-4 w-full flex justify-between items-center rounded-lg'>
           <h2 className='text-center hover:text-[#33f] animate-character flex'> Jay William</h2>
           <div className='flex'>
@@ -68,7 +68,7 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven experience <span className='px-1'>|</span> Web Development{' '}
+              Work experience <span className='px-1'>|</span> Web Development{' '}
               <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>

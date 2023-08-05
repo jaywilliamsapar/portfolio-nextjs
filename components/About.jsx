@@ -12,7 +12,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5] animate-pulse cursor-pointer'>
             🎯
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4 gradient-text'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive Front-end UI applications
             that connect with API’s and other backend technologies. I’m
@@ -26,7 +26,7 @@ const About = () => {
            I work in a construction firm for 5 years, We’re I gained my skills for project management, detailed oriented skilled, and project skilled development. I am currently working as a Full Stack Web Dev. I do freelance work and always looking for new opportunities.
           </p>
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer font-semibold text-yellow-600'>
+            <p className='py-2 underline cursor-pointer font-semibold text-yellow-600'>
               Check out some of my latest projects.
             </p>
           </Link>

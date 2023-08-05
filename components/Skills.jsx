@@ -20,7 +20,7 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase animate-bounce'>
           🏆
         </p>
-        <h2 className='py-4'>Tech Skills</h2>
+        <h2 className='py-4 grad-text'>Tech Skills</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#829bb1] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>

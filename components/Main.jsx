@@ -16,7 +16,7 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'> 
            Hi, I&#39;m <span className='text-[#1f7240] animate-character'> Jay </span>
           </h1>
-          <h1 className='py-2 text-gray-700'> A <span className='text-[#2222aac9] hover:text-[#1f7240dd]'><span className='animate-d'> Front End </span></span> Develop<span>er</span></h1>
+          <h1 className='py-2 text-gray-700'><span className='text-[#2222aac9] hover:text-[#1f7240dd]'><span className='animate-d'> Front End </span></span> Develop<span>er</span></h1>
           <p className='py-4 text-gray-700 sm:max-w-[70%] m-auto'>
             A Front-end web developer from Asia&#39;s Latin city, Creating websites and applications
            both front end and Integrating back-end technologies.

@@ -148,10 +148,20 @@ html {
   animation: pulse 4s cubic-bezier(0.4, 0, 0.6, .7) infinite;
 }
 
+.gradient-text {
+  background-image:
+    linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color:transparent 
+}
 
-
-
-
+.grad-text {
+  background-image:
+    linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color:transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
