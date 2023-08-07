@@ -31,7 +31,7 @@ const Contact = () => {
                 <p className='font-bold'>Specialized in Front-End Web Development</p>
                 <p className='py-4 '>
                   I&#39;m available for Freelance or full-time positions. Contact
-                  me and let&apos;s talk.😉
+                  me and let&#39;s talk.😉
                 </p>
               </div>
               <div>
@@ -80,7 +80,7 @@ const Contact = () => {
                 method='POST'
                 encType='multipart/form-data'
               >
-                <div className='grid md:grid-cols-2 gap-4 w-full py-2 text-[#006964] font-semibold'>
+                <div className='grid md:grid-cols-2 gap-4 w-full py-2 text-[#35b3ac] font-semibold'>
                   <div className='flex flex-col '>
                     <label className=' text-sm py-2 '>Name</label>
                     <input
@@ -136,8 +136,8 @@ const Contact = () => {
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] hover:bg-[#006964]'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#006964] hover:text-[#ffff]'
-                  size={40}
+                  className='text-[#111013ea] hover:text-[#ffff]'
+                  size={35}
                 />
               </div>
             </a>
