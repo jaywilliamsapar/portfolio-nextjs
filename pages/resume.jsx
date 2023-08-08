@@ -73,7 +73,7 @@ const resume = () => {
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Proven work experience</p>
+            <p>Proven Work Experience</p>
             <p className='py-2'>Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
