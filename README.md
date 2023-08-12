@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Beɭɭαʈiɳα Neω⊰
 
+What do you do in life
+
+This three words make you feel good about.
