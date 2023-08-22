@@ -91,7 +91,7 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4 font-bold'>d
+        <div className='text-center py-4 font-bold'>
           <h5 className='text-[20px] py-2 save2'>TECH STACK</h5>
           <p className='py-2 text-[#1f7240] '>
             <span className='font-bold save'>Technologies</span>
