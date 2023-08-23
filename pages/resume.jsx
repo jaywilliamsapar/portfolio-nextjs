@@ -86,7 +86,7 @@ const resume = () => {
           operations. Diverse analytical skills, team collaboration, and
           relationship building. Consummate professional, and motivated leader,
           with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
+          Effective and proven track record of critical thinking, Idea
           generation, and optimizing efficiencies.🙂🙂
         </p>
 
@@ -124,7 +124,7 @@ const resume = () => {
             <span className='font-bold italic'>
               Exco IT-Service
             </span>
-            <span className='px-2'>|</span>Zamboanga City, Phil
+            <span className='px-2'>|</span>Zamboanga City, Phil.
           </p>
           <p className='py-1 italic'>Jr. Front End Web Developer </p>
           <ul className='list-disc list-outside px-8 py-1 leading-relaxed'>
