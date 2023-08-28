@@ -231,7 +231,7 @@ const resume = () => {
               <span className='font-semibold text-gray-700'>Health and Safety: </span>
               Promote and adhere to health and safety standards within the project.
               Assist in identifying potential hazards, implementing safety measures,
-              and ensuring compliance with relevant regulations.
+              and ensuring compliance with relevant regulations..
             </li>
             <li>
               <span className='font-semibold text-gray-700'>Procurement and Vendor Management: </span>
