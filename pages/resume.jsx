@@ -212,8 +212,8 @@ const resume = () => {
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               <span className='font-semibold text-gray-700'>Project Planning: </span>
-              Assist in creating project plans, including defining project scope, objectives,
-              and deliverables. Help with scheduling activities, determining resource requirements, and establishing timelines.
+              Assist in creating Project plans, Including defining project scope, Objectives,
+              and deliverables. Help with scheduling activities, Determining resource requirements, and establishing timelines.
             </li>
             <li>
               <span className='font-semibold text-gray-700'>Documentation and Reporting: </span>
