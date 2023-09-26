@@ -224,7 +224,7 @@ const resume = () => {
             <li>
               <span className='font-semibold text-gray-700'>Quality Assurance:  </span>
               Participate in quality control and quality assurance activities,
-              including conducting inspections, reviewing design documents,
+              including conducting inspections, Reviewing design documents,
               and ensuring compliance with industry standards and regulations.
             </li>
             <li>
