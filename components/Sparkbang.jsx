@@ -228,6 +228,30 @@ const Sparkbang = () => {
           scrolling="no"
           allowFullScreen
         ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/85ydk/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/84ydk/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/75ydk/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
       </div>
     </>
   )
