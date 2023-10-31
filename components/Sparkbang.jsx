@@ -307,6 +307,46 @@ const Sparkbang = () => {
           scrolling="no"
           allowFullScreen
         ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/72yyyl/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/72yyyo/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/72yyuk/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/72y2k/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.com/723yyk/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
       </div>
     </>
   )
