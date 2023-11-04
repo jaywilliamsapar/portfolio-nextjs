@@ -27,7 +27,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2 animate-character'>Jay William</h2>
+                <h2 className='py-2'>Jay William</h2>
                 <p className='font-bold'>Specialized in Front-End Web Development</p>
                 <p className='py-4 '>
                   I&#39;m available for Freelance or full-time positions. Contact
@@ -80,7 +80,7 @@ const Contact = () => {
                 method='POST'
                 encType='multipart/form-data'
               >
-                <div className='grid md:grid-cols-2 gap-4 w-full py-2 text-[#35b3ac] font-semibold'>
+                <div className='grid md:grid-cols-2 gap-4 w-full py-2 text-[#006964] font-semibold'>
                   <div className='flex flex-col '>
                     <label className=' text-sm py-2 '>Name</label>
                     <input
