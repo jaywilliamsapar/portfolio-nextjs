@@ -350,7 +350,7 @@ const Sparkbang = () => {
         <iframe
           width="560"
           height="315"
-          src="https://spankbang.com/723tak/embed/"
+          src="https://spankbang.party/7jrou/embed/"
           frameBorder="0"
           scrolling="no"
           allowFullScreen
