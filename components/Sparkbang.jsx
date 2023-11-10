@@ -355,6 +355,14 @@ const Sparkbang = () => {
           scrolling="no"
           allowFullScreen
         ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://spankbang.party/7jr2u/embed/"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen
+        ></iframe>
       </div>
     </>
   )
