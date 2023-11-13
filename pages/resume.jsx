@@ -61,7 +61,7 @@ const resume = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40e02d1] hover:text-[#e4533ded]' />
+              <FaFilePdf size={25} style={{ marginRight: '1.5rem' }} className='text-[#f40e02d1] hover:text-[#37e77d]' />
             </a>
           </div>
         </div>
