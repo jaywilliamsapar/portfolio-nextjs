@@ -50,14 +50,14 @@ const resume = () => {
             >
             </a>
             <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor'
-              href='https://drive.google.com/file/d/1WAoP5-w3KH4qWRvVgx0plqfa9uYhVuuL/view?usp=sharing'
+              href='https://drive.google.com/file/d/1Kxd-Op3Yf3zqqrGKWSa_Nz8lQdztJQJZ/view?usp=drive_link'
               target='_blank'
               rel='noreferrer'
             >
               <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#000814c9] hover:text-[#37e77d]' />
             </a>
             <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor animate-bounce'
-              href='https://drive.google.com/file/d/1Kxd-Op3Yf3zqqrGKWSa_Nz8lQdztJQJZ/view?usp=drive_link'
+              href='https://drive.google.com/file/d/1WAoP5-w3KH4qWRvVgx0plqfa9uYhVuuL/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
