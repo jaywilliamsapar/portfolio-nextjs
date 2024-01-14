@@ -24,10 +24,10 @@ const Skills = () => {
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#829bb1] to-[#2ca] cursor-pointer hover:animate-bounce'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='m-auto' href='https://en.wikipedia.org/wiki/HTML5'>
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div  className='flex flex-col items-center justify-center'>
                 <h3>HTML</h3>
               </div>
             </div>

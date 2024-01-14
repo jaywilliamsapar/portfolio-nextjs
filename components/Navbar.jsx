@@ -132,8 +132,8 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b border-gray-300 my-4 '>
-              <p className='w-[85%] md:w-[90%] py-4 text-center font-duke animate-character'>
+            <div className='border-b border-gray-300 my-4'>
+              <p className='w-[85%] md:w-[90%] py-4 text-center font-duke animate-character2'>
                 Let&#39;s Build Something 🎨
               </p>
             </div>
