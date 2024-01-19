@@ -11,7 +11,7 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-[#2233]'>
-          Creativity&#39;  knows no boundaries
+          Creativity&#39;  knows no Boundaries
           </p>
           <h1 className='py-4 text-gray-700'> 
            Hi, I&#39;m <span className='text-[#1f7240] animate-character'> Jay </span>
