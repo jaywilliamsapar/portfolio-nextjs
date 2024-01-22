@@ -167,7 +167,7 @@ const Navbar = () => {
               </Link>
               <Link href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
-                  Contact
+                  Contacts
                 </li>
               </Link>
             </ul>
