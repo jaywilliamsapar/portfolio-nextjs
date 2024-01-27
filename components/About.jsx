@@ -23,7 +23,7 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-           I work in a construction firm for 5 years, We&#39;re I gained my skills for project management, detailed oriented skilled, and project skilled development. I am currently working as a Full Stack Web Dev. I do freelance work and always looking for new opportunities.
+           I work in a construction firm for 5 years, We&#39;re I gained my skills for project management, detailed oriented skills, and project skilled development. I am currently working as a Full Stack Web Dev. I do freelance work and always looking for new opportunities.
           </p>
           <Link href='/#projects'>
             <p className='py-2 underline cursor-pointer font-semibold text-yellow-600'>
