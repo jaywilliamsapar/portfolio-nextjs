@@ -217,6 +217,21 @@ html {
 
 
 
+/* .grad-text-22 {
+  background-image:
+    linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color:transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grad-text-22 {
+  background-image:
+    linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color:transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
 
 
 
