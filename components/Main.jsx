@@ -14,7 +14,7 @@ const Main = () => {
           Creativity&#39;  knows no Boundaries
           </p>
           <h1 className='py-2 text-gray-700'> 
-           Hi, I&#39;m <span className='text-[#1f7240] animate-character'> Jay </span>
+           Hi, I&#39;m <span className='text-[#1f7240] duke2'> Jay </span>
           </h1>
           <h1 className='py-2 text-gray-700'><span className='text-[#2222aac9] hover:text-[#1f7240dd]'><span className='text-[#1f7240]'> Front End </span></span> Web Develop<span>er</span></h1>
           <p className='py-4 text-gray-700 sm:max-w-[70%] m-auto'>

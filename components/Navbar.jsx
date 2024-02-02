@@ -127,13 +127,13 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:animate-spin '
+                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:animate-spin'
               >
                 <AiOutlineClose size={22} className='hover:animate-spin text-[#060d09]' />
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4 text-center font-duke animate-character2'>
+              <p className='w-[85%] md:w-[90%] py-6 text-center font-duke duke2'>
                 Let&#39;s Build Something 🎨
               </p>
             </div>
