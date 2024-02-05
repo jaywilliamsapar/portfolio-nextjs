@@ -73,7 +73,7 @@ const Contact = () => {
           {/* bg-[#e1f0ec] */}
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-700 rounded-xl lg:p-4 bg-gray-300'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4 bg-gradient-to-r from-[#c1c1c1] to-[#9bb8ba] animate-pulse'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/9dd3d013-7743-486b-8714-657e8aad7d98' 
@@ -82,49 +82,49 @@ const Contact = () => {
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2 text-[#006964] font-semibold'>
                   <div className='flex flex-col '>
-                    <label className=' text-sm py-2 '>Name</label>
+                    <label className=' text-sm py-2 font-black'>Name</label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-1 00 text-[#1236]'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 text-[#e7b156] duke3 font-black'
                       type='text'
                       name='name'
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className=' text-sm py-2'>
+                    <label className=' text-sm py-2 font-black'>
                       Phone Number
                     </label>
                     <input
-                      className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
+                      className='border-2 rounded-lg p-3 flex border-gray-300 text-[#e7b156] duke3 font-black'
                       type='text'
                       name='phone'
                     />
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className=' text-sm py-2 text-[#006964] font-semibold'>Email</label>
+                  <label className=' text-sm py-2 text-[#006964] font-black'>Email</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#e7b156] duke3 font-black'
                     type='email'
                     name='email'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className=' text-sm py-2 text-[#006964] font-semibold'>Subject</label>
+                  <label className=' text-sm py-2 text-[#006964] font-black '>Subject</label>
                   <input
-                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#1236]'
+                    className='border-2 rounded-lg p-3 flex border-gray-300 text-[#e7b156] duke3 font-black'
                     type='text'
                     name='subject'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className=' text-sm py-2 text-[#006964] font-semibold'>Message</label>
+                  <label className=' text-sm py-2 text-[#006964] font-black'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300 text-[#1236]'
+                    className='border-2 rounded-lg p-3 border-gray-300 text-[#e7b156] duke3 font-black'
                     rows='8'
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 mt-4 text-[#fff] hover:text-[#22a] animate-character'>
+                <button className='w-full p-4 mt-4 hover:text-[#22a] animate-character font-black '>
                   Send Message
                 </button>
               </form>
@@ -134,7 +134,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] hover:bg-[#006964]'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] hover:bg-[#006964] '>
                 <HiOutlineChevronDoubleUp
                   className='text-[#111013ea] hover:text-[#ffff]'
                   size={35}

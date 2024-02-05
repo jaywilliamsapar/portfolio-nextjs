@@ -303,11 +303,45 @@ html {
   }
 }
 
+.duke3
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(
+    -225deg,
+    #000000cb 10%,
+    #000000cb 20%,
+    #000000cb 30%,
+    #cf9b22ed 50%,
+    #cf9b22ed 60%,
+    #cf9b22ed  70%,
+    #565357b8 85%,
+    #565357b8 95%,
+    #565357b8 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgb(247, 75, 23);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 
 
 
-
-
+.wave-background {
+  height: 200px; /* Set the height of your wave */
+  background: linear-gradient(to right, #aaf, #fff 50%, #aaf); /* Adjust colors as needed */
+}
 
 
 
