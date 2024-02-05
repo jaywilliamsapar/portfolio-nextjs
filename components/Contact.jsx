@@ -124,7 +124,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 mt-4 hover:text-[#22a] animate-character font-black '>
+                <button className='w-full p-4 mt-4 text-[#1d7b20ea] bg-[#fff] text-[#5651e5] hover:bg-[#0b1110] hover:text-[#cc1] glow-on-hover'>
                   Send Message
                 </button>
               </form>
@@ -134,9 +134,9 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] hover:bg-[#006964] '>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] hover:bg-[#006964]'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#111013ea] hover:text-[#ffff]'
+                  className='text-[#1d7b20ea] hover:text-[#ffff]'
                   size={35}
                 />
               </div>

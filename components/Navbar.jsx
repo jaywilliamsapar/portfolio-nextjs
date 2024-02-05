@@ -32,7 +32,8 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
-  };
+  }
+  
 
   useEffect(() => {
     const handleShadow = () => {
