@@ -9,6 +9,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;0,700;1,600;1,700&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+
 html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
@@ -70,7 +80,7 @@ html {
   background-size: 200% auto;
   color: rgb(247, 75, 23);
   background-clip: text;
-  text-fill-color: transparent;
+  -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
@@ -109,7 +119,7 @@ html {
   background-size: 200% auto;
   color: rgb(247, 75, 23);
   background-clip: text;
-  text-fill-color: transparent;
+  -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
@@ -147,7 +157,7 @@ html {
   background-size: 200% auto;
   color: rgb(247, 75, 23);
   background-clip: text;
-  text-fill-color: transparent;
+  -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 7s linear infinite;
@@ -257,7 +267,7 @@ html {
   background-size: 200% auto;
   color: rgb(247, 75, 23);
   background-clip: text;
-  text-fill-color: transparent;
+  -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 7s linear infinite;
@@ -290,7 +300,7 @@ html {
   background-size: 200% auto;
   color: rgb(247, 75, 23);
   background-clip: text;
-  text-fill-color: transparent;
+  -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 7s linear infinite;
@@ -302,6 +312,50 @@ html {
     background-position: 200% center;
   }
 }
+
+
+.duke5
+{
+  font-family: 'Hind Siliguri', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  background-image: linear-gradient(
+    -225deg,
+    #000000cb 10%,
+    #000000cb 20%,
+    #000000cb 30%,
+    #215f3aa9 50%,
+    #215f3aa9 60%,
+    #215f3aa9  70%,
+    #565357b8 85%,
+    #565357b8 95%,
+    #565357b8 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgb(8, 8, 8);
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  --tw-rotate: 5deg; /* Adjust the degree of tilt as needed */
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 
 .duke3
 {
@@ -323,7 +377,7 @@ html {
   background-size: 200% auto;
   color: rgb(247, 75, 23);
   background-clip: text;
-  text-fill-color: transparent;
+  -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 7s linear infinite;
@@ -344,20 +398,78 @@ html {
 }
 
 
+@keyframes ping {
+  75%, 100% {
+      transform: scale(2) rotate(45deg); /* Adjust the degree of tilt as needed */
+      opacity: 0;
+  }
+}
+
+.hover\:animate-ping:hover {
+  animation: ping cubic-bezier(0.215, 0.610, 0.355, 1) cubic-bezier(0, 0, 0.2, 4) infinite;
+}
 
 
 
+.hover2:hover {
+    --tw-text-opacity: 1;
+    color: rgb(31 114 64 / var(--tw-text-opacity));
+    transform: rotate(14deg); /* Adjust the degree of tilt as needed */
+}
+
+.hover3:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 114 64 / var(--tw-text-opacity));
+  transform: rotate(-15deg); /* Adjust the degree of tilt as needed */
+}
+
+.hover4:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 114 64 / var(--tw-text-opacity));
+  transform: rotate(5deg); /* Adjust the degree of tilt as needed */
+}
+
+.hover4:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 114 64 / var(--tw-text-opacity));
+  transform: rotateY(180deg); /* Initial flip transformation */
+  transition: transform 0.5s ease; /* Smooth transition for animation */
+}
+
+.hover5:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 114 64 / var(--tw-text-opacity));
+  transform: rotateY(180deg); /* Initial flip transformation */
+  transition: transform 0.5s ease; /* Smooth transition for animation */
+}
+
+.hover5:hover::after {
+  content: ''; /* Create a pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Optional: Add overlay to prevent interaction with underlying content */
+  transform: rotateY(180deg); /* Additional flip transformation */
+}
 
 
+@keyframes wave {
+  0% {
+      opacity: 0.2;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0.2;
+  }
+}
 
-
-
-
-
-
-
-
-
+.animate-wave {
+  animation: wave 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 
 
 

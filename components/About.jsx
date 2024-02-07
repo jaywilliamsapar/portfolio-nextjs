@@ -31,7 +31,7 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-800 rounded-xl flex items-center justify-center p-2 hover:scale-110 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-xl shadow-gray-800 rounded-xl flex items-center justify-center p-2  hover4 ease-in duration-200'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
       </div>

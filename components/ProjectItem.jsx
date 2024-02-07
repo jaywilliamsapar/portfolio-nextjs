@@ -5,7 +5,7 @@ import React from 'react'
 const ProjectItem = ({title, backgroundImg, tech, projectUrl}) => {
   return (
 
-    <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#3dcd49] to-[#7222b9aa]'>
+    <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#40c74bb9] to-[#5d278baa]'>
     <Image className='rounded-xl group-hover:opacity-10 hover:animate-ping' src={backgroundImg} alt='/' /> 
     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <h3 className='text-2xl tracking-wider text-center text-[#32de66cc]'>{title}</h3>
@@ -15,8 +15,6 @@ const ProjectItem = ({title, backgroundImg, tech, projectUrl}) => {
         </Link>
     </div>
  </div>
-
-
   )
 }
 

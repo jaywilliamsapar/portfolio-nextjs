@@ -63,28 +63,28 @@ const Navbar = () => {
               alt='/'
               width='80'
               height='70'
-              className='cursor-pointer'
+              className='cursor-pointer hover5'
             />
           </a>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-duke duke5 hover3'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-duke duke5 hover3'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-duke duke5 hover3'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-duke duke5 hover3'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-duke duke5 hover3'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-bold'>
+            <li className='ml-10 text-sm uppercase hover:text-[#1f7240] text-gray-700 font-duke duke5 hover3'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -122,7 +122,7 @@ const Navbar = () => {
                     width='50'
                     height='50'
                     alt='/'
-                    className='z-20 hover:animate-spin'
+                    className='z-20 hover4'
                   />
                 </a>
               </Link>
@@ -142,32 +142,32 @@ const Navbar = () => {
           <div className='py-2 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover4 ease-in duration-300 text-[#1f7240]'>
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover4 ease-in duration-300 text-[#1f7240]'>
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover4 ease-in duration-300 text-[#1f7240]'>
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover4 ease-in duration-300 text-[#1f7240]'>
                   Projects
                 </li>
               </Link>
               <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover4 ease-in duration-300 text-[#1f7240]'>
                   Resume
                 </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm hover:scale-105 ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm hover4 ease-in duration-300 text-[#1f7240]'>
                   Contacts
                 </li>
               </Link>

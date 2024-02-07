@@ -28,7 +28,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#171616ee]'>
-                <FaLinkedinIn className=' hover:animate-bounce text-[#1f7240]' size={20}/>
+                <FaLinkedinIn className=' hover5 text-[#1f7240]' size={20}/>
               </div>
             </a>
             <a
@@ -37,17 +37,17 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#171616ee]'>
-                <FaGithub className=' hover:animate-bounce text-[#1f7240]' size={20}/>
+                <FaGithub className=' hover5 text-[#1f7240]' size={20}/>
               </div>
             </a>
             <Link href='/#contact'>
               <div className='rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#171616ee]'>
-                <AiOutlineMail className=' hover:animate-bounce text-[#1f7240]' size={20}/>
+                <AiOutlineMail className=' hover5 text-[#1f7240]' size={20}/>
               </div>
             </Link>
             <Link href='/resume'>
               <div className='rounded-full shadow-lg shadow-gray-600 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#171616ee]'>
-                <BsFillPersonLinesFill className=' hover:animate-bounce text-[#1f7240]' size={20}/>
+                <BsFillPersonLinesFill className=' hover5 text-[#1f7240]' size={20}/>
               </div>
             </Link>
           </div>

@@ -21,7 +21,7 @@ const Contact = () => {
             <div className='lg:p-4 h-full '>
               <div className='hover:scale-105 ease-in duration-300'>
                 <Image
-                  className='rounded-xl  animate-pulse'
+                  className='rounded-xl hover4'
                   src={ContactImg}
                   alt='/'
                 />
@@ -73,7 +73,7 @@ const Contact = () => {
           {/* bg-[#e1f0ec] */}
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4 bg-gradient-to-r from-[#c1c1c1] to-[#a2ced1] animate-pulse'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4 bg-gradient-to-r from-[#8282e2b9] to-[#a2ced1]'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/9dd3d013-7743-486b-8714-657e8aad7d98' 
@@ -134,9 +134,9 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] hover:bg-[#006964]'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] text-[#00df9a]'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#1d7b20ea] hover:text-[#ffff]'
+                  className='text-[#00df9a] hover:text-[#ffff]'
                   size={35}
                 />
               </div>
