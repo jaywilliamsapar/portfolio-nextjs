@@ -56,7 +56,7 @@ const resume = () => {
             >
               <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#000814c9] hover:text-[#37e77d]' />
             </a>
-            <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor animate-bounce'
+            <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor hover4'
               href='https://drive.google.com/file/d/1CeCJ-aidhvpaYedMxqg8hflQ0CFPtZIK/view?usp=sharing'
               target='_blank'
               rel='noreferrer'

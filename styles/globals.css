@@ -473,7 +473,20 @@ html {
 
 
 
+@keyframes tilt-bounce {
+  0%, 100% {
+      transform: translateY(-25%) rotate(5deg);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+      transform: none rotate(-5deg);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
 
+.animate-tilt-bounce {
+  animation: tilt-bounce 1s infinite;
+}
 
 
 
