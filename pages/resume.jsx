@@ -19,10 +19,10 @@ const resume = () => {
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center grad-text'>Resume</h2>
-        <div className='bg-gradient-to-r from-[#2f2e2ee5] to-[#3ba89d] my-4 p-4 w-full flex justify-between items-center rounded-lg'>
+        <div className='bg-gradient-to-r from-[#2f2e2ee5] to-[#464a4998] my-4 p-4 w-full flex justify-between items-center rounded-lg'>
           <h2 className='text-center hover:text-[#33f] animate-character flex'> Jay William</h2>
           <div className='flex'>
-            <a className='text-[#22a] hover:text-[#1f7240] '
+            <a className='text-[#22a] hover:text-[#6ab9ff] '
               href='https://www.linkedin.com/in/williamsapar/'
               target='_blank'
               rel='noreferrer'
@@ -57,7 +57,7 @@ const resume = () => {
               <MdOutlinePsychology size={28} style={{ marginRight: '1.5rem' }} className='text-[#000814c9] hover:text-[#37e77d]' />
             </a>
             <a className='text-[#22a] hover:text-[#37e77d] hover:text-anchor animate-bounce'
-              href='https://drive.google.com/file/d/1WAoP5-w3KH4qWRvVgx0plqfa9uYhVuuL/view?usp=sharing'
+              href='https://drive.google.com/file/d/1CeCJ-aidhvpaYedMxqg8hflQ0CFPtZIK/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
