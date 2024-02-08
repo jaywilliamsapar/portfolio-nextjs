@@ -42,14 +42,14 @@ const crypto = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8 text-[#fffa]'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 text-[#fffa] glow-on-hover'>Code</button>
           </a>
           <a
             href='https://cryptobase-yt.web.app/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 text-[#fffa]'>Demo</button>
+            <button className='px-8 py-2 mt-4 text-[#fffa] glow-on-hover'>Demo</button>
           </a>
 
         </div>
@@ -79,7 +79,7 @@ const crypto = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <p className='cursor-pointer font-duke'> ↩ Back</p>
+            <button className='px-8 py-2 mt-4 hover3 glow-on-hover'>Back</button>
         </Link>
       </div>
     </div>
