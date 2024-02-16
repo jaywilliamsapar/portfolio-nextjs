@@ -415,7 +415,7 @@ html {
 .hover3:hover {
   --tw-text-opacity: 1;
   color: rgb(31 114 64 / var(--tw-text-opacity));
-  transform: rotate(-15deg); /* Adjust the degree of tilt as needed */
+  transform: rotate(-8deg); /* Adjust the degree of tilt as needed */
 }
 
 .hover4:hover {
