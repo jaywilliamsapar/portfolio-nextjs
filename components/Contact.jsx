@@ -4,8 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+// import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
+import { PiArrowFatLinesUp } from 'react-icons/pi';
 
 const Contact = () => {
   return (
@@ -134,15 +135,25 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] text-[#00df9a]'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#00df9a] hover:text-[#ffff]'
+              <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] text-[#00df9a] glow-on-hover2'>
+              <PiArrowFatLinesUp 
+                  className='text-[#121313] hover:text-[#d55757]'
                   size={35}
                 />
               </div>
             </a>
           </Link>
         </div>
+        {/* <div className='flex justify-center py-12 px-2'> 
+          <FaGithub size={65} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+          <FaGithub size={35} className='px-4' />
+        </div> */}
       </div>
     </div>
   );
