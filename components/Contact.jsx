@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Jay William</h2>
-                <p className='font-bold'>Specialized in Front-End Web Development</p>
+                <p className='font-bold'> Front-End Web Developer </p>
                 <p className='py-4 '>
                   I&#39;m available for Freelance or full-time positions. Contact
                   me and let&#39;s talk.😉
