@@ -17,7 +17,11 @@ const Contact = () => {
         </p>
         <h2 className='py-4 grad-text'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
-          {/* left */}
+
+
+          {/* LEFT  --------------------------------------- SECTION */}
+
+
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-600 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div className='hover:scale-105 ease-in duration-300'>
@@ -71,10 +75,11 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* bg-[#e1f0ec] */}
 
-          {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4 bg-gradient-to-r bg-[#fff]'>
+          {/* RIGHT --------------------------------------- SECTION */}
+
+
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-500 rounded-xl lg:p-4 bg-[#edf0efde]'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/9dd3d013-7743-486b-8714-657e8aad7d98' 
@@ -144,15 +149,13 @@ const Contact = () => {
             </a>
           </Link>
         </div>
-        {/* <div className='flex justify-center py-12 px-2'> 
+        {/* <div className='flex justify-center py-2 px-2'> 
           <FaGithub size={65} className='px-4' />
-          <FaGithub size={35} className='px-4' />
-          <FaGithub size={35} className='px-4' />
-          <FaGithub size={35} className='px-4' />
-          <FaGithub size={35} className='px-4' />
-          <FaGithub size={35} className='px-4' />
-          <FaGithub size={35} className='px-4' />
-          <FaGithub size={35} className='px-4' />
+          <FaGithub size={65} className='px-4' />
+          <FaGithub size={65} className='px-4' />
+          <FaGithub size={65} className='px-4' />
+          <FaGithub size={65} className='px-4' />
+          <FaGithub size={65} className='px-4' />
         </div> */}
       </div>
     </div>
