@@ -4,9 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-// import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
-import { PiArrowFatLinesUp } from 'react-icons/pi';
+
 
 const Contact = () => {
   return (
@@ -141,7 +141,7 @@ const Contact = () => {
           <Link href='/'>
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-125 ease-in duration-400 bg-[#f8e5dd] text-[#00df9a] glow-on-hover2'>
-              <PiArrowFatLinesUp 
+              <HiOutlineChevronDoubleUp
                   className='text-[#121313] hover:text-[#d55757]'
                   size={35}
                 />
