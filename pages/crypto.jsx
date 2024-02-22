@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Responsive Conqueror's of Kingdoms - Medieval Warfare Website Using HTML, CSS & JavaScript.
+          Responsive Conquerors of Kingdoms - Medieval Warfare Website Using HTML, CSS & JavaScript.
             Contains animations when scrolling.
             It has three color designs (green, red and black)
             Smooth scrolling in each section.
