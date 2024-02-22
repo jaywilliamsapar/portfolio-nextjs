@@ -36,7 +36,7 @@ const twitch = () => {
             the Image component, built in routing, and Next/Auth Context.
           </p>
           <a
-            href='https://twitch-nextjs-tailwind.vercel.app/'
+            href='https://twitch-nextjs-tailwind.vercel.app/'c
             target='_blank'
             rel='noreferrer'
           >
