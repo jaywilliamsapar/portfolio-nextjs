@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import netflixImg from '../public/assets/projects/netflix.jpg';
+// import netflixImg from '../public/assets/projects/netflix.jpg';
+import mobile from '../public/assets/projects/watch2.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -8,16 +9,16 @@ const netflix = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
+        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/60 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={netflixImg}
+          src={mobile}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Netflix App</h2>
+          <h2 className='py-2'>Designer Watch</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -27,23 +28,22 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+          Responsive Watches Website Using HTML CSS & JavaScript
+          Smooth scrolling in each section.
+          Includes a dark and light mode.
+          Developed first with the Mobile First methodology, then for desktop.
+          Compatible with all mobile devices and with a beautiful and pleasant user interface.
+          oin the channel to see more videos like this. Special Thanks to -- [ Bedimcode ]
           </p>
           <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
+            href='https://github.com/jaywilliamsapar/designer-watch'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 glow-on-hover'>Code</button>
           </a>
           <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
+            href='https://designer-watch-v1.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >

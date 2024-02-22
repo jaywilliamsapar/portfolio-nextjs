@@ -17,7 +17,7 @@ const crypto = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Crypto App</h2>
+          <h2 className='py-2'>Medieval-Warfare</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -27,25 +27,23 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possible by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+          Responsive Conqueror's of Kingdoms - Medieval Warfare Website Using HTML, CSS & JavaScript.
+            Contains animations when scrolling.
+            It has three color designs (green, red and black)
+            Smooth scrolling in each section.
+            Developed first with the Mobile First methodology, then for desktop.
+            Compatible with all mobile devices and with a beautiful and pleasant user interface.
+            Join the channel to see more videos like this. Special Thank to -- [-Bedimcode-]
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/jaywilliamsapar/Conquerors-of-the-Kingdom-Medieval-Warfare'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 text-[#fffa] glow-on-hover'>Code</button>
           </a>
           <a
-            href='https://cryptobase-yt.web.app/'
+            href=' https://kingdom-mediaval-warefare.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
