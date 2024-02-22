@@ -1,0 +1,28 @@
+import React from 'react';
+  
+  .front,
+  .back {
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .front img,
+  .back img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .front h1,
+  .back h1 {
+    margin: 10px;
+  }
