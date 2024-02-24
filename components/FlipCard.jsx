@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
+import './styles.css'; // Import the CSS file
 
 const FlipCard = ({ frontImage, backImage, frontText, backText }) => {
   const [isFlipped, setIsFlipped] = useState(false);
