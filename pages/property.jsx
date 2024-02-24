@@ -17,7 +17,7 @@ const property = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
+          <h2 className='py-2'>Sapphire Realty</h2>
           <h3 className='text-red-400 font-bold'>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -37,14 +37,14 @@ const property = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/jaywilliamsapar/Sapphire-Realty'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8 bg-yellow-200'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://sapphire-realty.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
