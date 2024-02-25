@@ -55,22 +55,22 @@ const property = () => {
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center text-gray-500'>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-green-400' /> React
               </p>
-              <p className='text-gray-600 py-2 flex items-center text-gray-600'>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-green-400' /> Tailwind
               </p>
-              <p className='text-gray-600 py-2 flex items-center text-gray-600'>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-green-400' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center text-gray-600'>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-green-400' /> Firebase
               </p>
-              <p className='text-gray-600 py-2 flex items-center text-gray-600'>
+              <p className='text-gray-600 py-2 flex items-center '>
                 <RiRadioButtonFill className='pr-1 text-green-400' /> Google API
               </p>
-              <p className='text-gray-600 py-2 flex items-center text-gray-600'>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-green-400' /> Zillow API
               </p>
             </div>
