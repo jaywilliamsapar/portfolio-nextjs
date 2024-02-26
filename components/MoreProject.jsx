@@ -9,6 +9,7 @@ import Two from '../public/assets/projects/2.png'
 import Three from '../public/assets/projects/3.png'
 import Four from '../public/assets/projects/4.png'
 import Five from '../public/assets/projects/5.png'
+import Six from '../public/assets/projects/6.png'
 import MoreProjectItems from './MoreProjectItems'
 import ProjectItem from './ProjectItem'
 
@@ -53,7 +54,7 @@ const MoreProject = () => {
           />
             <ProjectItem
             title='App name'
-            backgroundImg={Two}
+            backgroundImg={Six}
             projectUrl='/4'
             tech='Next JS'
           />
