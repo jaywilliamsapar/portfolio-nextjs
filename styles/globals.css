@@ -735,3 +735,8 @@ html {
 .txt-animation {
   animation: fadeIn 1s ease-in; /* Use the fadeIn animation over 1 second */
 }
+
+/* Apply the animation to the element */
+.txt-animation2 {
+  animation: fadeIn 1s ease-in; /* Use the fadeIn animation over 1 second */
+}
