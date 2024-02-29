@@ -54,7 +54,7 @@ const Main = () => {
         </div>
       </div>
       <p className='uppercase text-sm tracking-widest text-[#2233]'>
-          Let&#39;s build projects
+         ----- Let&#39;s build projects -----
           </p>
     </div>
   );
