@@ -142,32 +142,32 @@ const Navbar = () => {
           <div className='py-2 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm text-underline ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm animate-tilt-bounce ease-in duration-300 text-[#1f7240]'>
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm text-underline ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm animate-tilt-bounce ease-in duration-300 text-[#1f7240]'>
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm text-underline ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm animate-tilt-bounce ease-in duration-300 text-[#1f7240]'>
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm text-underline ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm animate-tilt-bounce ease-in duration-300 text-[#1f7240]'>
                   Projects
                 </li>
               </Link>
               <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm text-underline ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm animate-tilt-bounce ease-in duration-300 text-[#1f7240]'>
                   Resume
                 </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm text-underline ease-in duration-300 text-[#1f7240]'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm animate-tilt-bounce ease-in duration-300 text-[#1f7240]'>
                   Contacts
                 </li>
               </Link>
