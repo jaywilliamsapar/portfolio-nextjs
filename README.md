@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting StarteddV dEv@
+## Getting StarteddV dEv@ 
+
+EXPENSIVE FAMILY 10/10/24 IGN - AzftDvke
 
 test speed doggs
 
