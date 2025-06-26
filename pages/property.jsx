@@ -34,7 +34,7 @@ const property = () => {
             location of the property integrated with the Google Maps API. User
             authentication is available so you can signup and signin to your
             account with an email address in order to save your favorite
-            properties. This is made possible with Zillow APIs.😉
+            properties. This is made possible with Zillow APIss.😉
           </p>
           <a
             href='https://github.com/jaywilliamsapar/Sapphire-Realty'
