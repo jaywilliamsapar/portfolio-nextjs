@@ -34,14 +34,14 @@ const property = () => {
             location of the property integrated with the Google Maps API. User
             authentication is available so you can signup and signin to your
             account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            properties. This is made possible with Zillow APIs.😉
           </p>
           <a
             href='https://github.com/jaywilliamsapar/Sapphire-Realty'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8 bg-yellow-200'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 bg-yellow-200'>Codes</button>
           </a>
           <a
             href='https://sapphire-realty.vercel.app/'
