@@ -29,7 +29,7 @@ const crypto = () => {
           <p>
           Responsive Conquerors of Kingdoms - Medieval Warfare Website Using HTML, CSS & JavaScript.
             Contains animations when scrolling.
-            It has three color designs (green, red and black)
+            It has three color designs (Green, Red and Black)
             Smooth scrolling in each section.
             Developed first with the Mobile First methodology, then for desktop.
             Compatible with all mobile devices and with a beautiful and pleasant user interface.
