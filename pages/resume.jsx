@@ -79,7 +79,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web developer professional
+          Analytical, Innovative, and motivated web developer professional
           with experience in customer service, team leadership, and
           organizational effectiveness in fast-paced and challenging
           environments. Adept at developing strategies and driving streamlined
@@ -87,7 +87,7 @@ const resume = () => {
           relationship building. Consummate professional, and motivated leader,
           with solid interpersonal abilities and complex problem-solving skills.
           Effective and proven track record of critical thinking, Idea
-          generation, and optimizing efficiencies.🙂🙂
+          generation, and optimizing efficiencies.🙂🙂🧈❤💛🧡💚
         </p>
 
         {/* Skills */}
@@ -106,12 +106,12 @@ const resume = () => {
             <span className='px-2 tech-list'>|</span> Redux
             <span className='px-2 tech-list'>|</span> Tailwind
             <span className='px-2 tech-list'>|</span> Firebase
-            <span className='px-2 tech-list'>|</span> Axios
+            <span className='px-2 tech-list'>|</span> Axioss
           </p>
           <p className='py-2  font-bold'>
             <span className='font-bold save'>Amazon Web Services</span>
-            <span className='px-2 text-[#1f7240]'> | Amazon Web Services Cloud</span>
-            <span className='px-2 text-[#1f7240]'> | AWS : Identity Access Management (AIM)</span>
+            <span className='px-2 text-[#1f7240]'> | Amazon Web Services Cloud..</span>
+            <span className='px-2 text-[#1f7240]'> | AWS : Identity Access Management (A.I.M)</span>
           </p>
         </div>
 
@@ -120,6 +120,35 @@ const resume = () => {
         </h5>
         {/* WORK EXPERIENCES */}
         <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+              YSU MARKETING CORPORATION
+            </span>
+            <span className='px-2'>|</span>CAGAYAN DE ORO CITY, PHIL.
+          </p>
+          <p className='py-1 italic'>Depot In Charge </p>
+          <ul className='list-disc list-outside px-8 py-1 leading-relaxed'>
+            <li>
+              Ensured comprehensive mobile responsive user interface (UI) layouts and user experience (UX) with
+              understanding of HTML, CSS, and JavaScript.
+            </li>
+            <li>
+              Troubleshoot issues and concerns, configure operation and analytic
+              plugins, and design changes as needed by clients.
+            </li>
+            <li>
+              Worked directly with a diverse clients base to understand and
+              implement multiple technologies and programs.
+            </li>
+            <li>
+              Platform migration managing DNS servers as well as MX records and
+              ensuring a smooth migration process.
+            </li>
+          </ul>
+        </div>
+        <p>I enjoyed working in these company a lot of talented person and great work ethic, Where I gained my experience in Software Development. I appreciated working with them even though I am not a CS Degree, They help me when I get stuck on a certain task.</p>
+
+         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
               Exco IT-Service
@@ -148,6 +177,8 @@ const resume = () => {
         </div>
         <p>I enjoyed working in these company a lot of talented person and great work ethic, Where I gained my experience in Software Development. I appreciated working with them even though I am not a CS Degree, They help me when I get stuck on a certain task.</p>
 
+        
+        
         {/* OTHER WORK EXPERIENCES */}
 
         <div className='py-6'>
