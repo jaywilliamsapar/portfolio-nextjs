@@ -129,20 +129,18 @@ const resume = () => {
           <p className='py-1 italic'>Depot In Charge </p>
           <ul className='list-disc list-outside px-8 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive user interface (UI) layouts and user experience (UX) with
-              understanding of HTML, CSS, and JavaScript.
+              Automated inventory tracking using Excel macros, reducing manual errors by 40% and saving 10+ hours/week.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed by clients.
+              Coordinated with logistics teams to ensure 95% on-time order fulfillment, enhancing customer satisfaction.
             </li>
             <li>
-              Worked directly with a diverse clients base to understand and
-              implement multiple technologies and programs.
+              Managing a team of 10+ warehouse staff, improving operational efficiency by 30% through streamlined processes
+              and insured compliance with safety regulations and standards.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Account and Receivable Management:
+              Implemented a new invoicing system that reduced payment processing time by 25% and improved cash flow.  
             </li>
           </ul>
         </div>
