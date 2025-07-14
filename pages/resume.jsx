@@ -87,7 +87,7 @@ const resume = () => {
           relationship building. Consummate professional, and motivated leader,
           with solid interpersonal abilities and complex problem-solving skills.
           Effective and proven track record of critical thinking, Idea
-          generation, and optimizing efficiencies.🙂🙂🧈❤💛🧡💚
+          generation, and optimizing efficiencies.🧈❤💛🧡💚
         </p>
 
         {/* Skills */}
@@ -137,6 +137,13 @@ const resume = () => {
             <li>
               Managing a team of 10+ warehouse staff, improving operational efficiency by 30% through streamlined processes
               and insured compliance with safety regulations and standards.
+            </li>
+            <li>
+              Account and Receivable Management:
+              Implemented a new invoicing system that reduced payment processing time by 25% and improved cash flow.  
+            </li>
+            <li>
+              Developed and maintained strong relationships with suppliers and vendors, negotiating favorable terms and pricing.
             </li>
             <li>
               Account and Receivable Management:
@@ -212,7 +219,7 @@ const resume = () => {
             <span className='font-bold'> Liaison Officer </span>
             <span className='px-2'>|</span>E.G. AYOMA Construction & Enterprises
           </p>
-          <p className='py-1 italic'>Office Engineer (2015 - 2019)</p>
+          <p className='py-1 italic'>Office Engineer (2016 - 2019)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Assist with the preparation of project proposals, bids, and contracts.
@@ -237,7 +244,7 @@ const resume = () => {
             <span className='font-bold'>Junior Office Engineer</span>
             <span className='px-2'>|</span>RCM Construction Supplies & Enterprises
           </p>
-          <p className='py-1 italic'>Assisting Project Engineer (2013 - 2015)</p>
+          <p className='py-1 italic'>Assisting Project Engineer (2013 - 2014)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               <span className='font-semibold text-gray-700'>Project Planning: </span>
