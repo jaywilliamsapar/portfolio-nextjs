@@ -74,7 +74,7 @@ const resume = () => {
           </div>
           <div className='block sm:hidden'>
             <p>Work Experience</p>
-            <p className='py-2'>Web Development</p>
+            <p className='py-2'>Weeb Development</p>
             <p>Complex Problem Solving</p>
           </div>
         </div>
