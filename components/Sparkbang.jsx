@@ -167,7 +167,7 @@ const Sparkbang = () => {
         <iframe
           width="560545"
           height="354515"
-          src="https://spankbang.com/84fdk/embed/"
+          src="https://spankbang.com/84fdddk/embed/"
           frameBorder="0"
           scrolling="no"
           allowFullScreen
@@ -183,7 +183,7 @@ const Sparkbang = () => {
         <iframe
           width="565450"
           height="315455455"
-          src="https://spankbang.com/84fdk/embed/"
+          src="https://spankbang.com/85524fdk/embed/"
           frameBorder="0"
           scrolling="no"
           allowFullScreen
@@ -191,7 +191,7 @@ const Sparkbang = () => {
         <iframe
           width="560"
           height="The Slime Creepshow"
-          src="https://spankbang.com/84ydk/embed/"
+          src="https://spankbang.com/84y123dk/embed/"
           frameBorder="0"
           scrolling="no"
           allowFullScreen

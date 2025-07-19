@@ -33,7 +33,7 @@ const twitch = () => {
             Next/Auth.js for authentication. Users may choose to be
             authenticated with either a Github account or a Google account. A
             few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+            the Image component, built in routing, and Next/Auth Context...🧈
           </p>
           <a
             href='https://twitch-nextjs-tailwind.vercel.app/'c
