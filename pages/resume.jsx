@@ -83,7 +83,7 @@ const resume = () => {
           with experience in customer service, team leadership, and
           organizational effectiveness in fast-paced and challenging
           environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
+          operations. Diverse analytical skills, team collaborations, and
           relationship building. Consummate professional, and motivated leader,
           with solid interpersonal abilities and complex problem-solving skills.
           Effective and proven track record of critical thinking, Idea
