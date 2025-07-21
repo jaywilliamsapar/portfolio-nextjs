@@ -18,9 +18,9 @@ const Skills = () => {
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase animate-bounce'>
-          🏆
+          ⚽🏀🏐
         </p>
-        <h2 className='py-4 grad-text'>Tech Skills</h2>
+        <h2 className='py-4 grad-text'>Tech Stacks💕</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#829bb1] to-[#2ca] cursor-pointer hover3'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -142,7 +142,8 @@ const Skills = () => {
               </div>
             </div>
           </div>
-           Repeated React card for demonstration purposes //
+
+          {/* NEW ROWS 💖💖✔✔✔*/}
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -153,6 +154,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -163,6 +165,74 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+            {/* END ROWS 💖💖✔✔✔*/}
+
+             <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
