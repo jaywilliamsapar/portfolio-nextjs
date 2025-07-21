@@ -198,10 +198,10 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Netlify} width='64px' height='64px' alt='/' />
+                <Image src={Typescript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Netlify</h3>
+                <h3>Typescript</h3>
               </div>
             </div>
           </div>
@@ -210,10 +210,10 @@ const Skills = () => {
              <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300 hover:bg-gradient-to-r from-[#79bd45cc] to-[#2ca] cursor-pointer hover3'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Shopify} width='64px' height='64px' alt='/' />
+                <Image src={Netlify} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Shopify</h3>
+                <h3>Netlify</h3>
               </div>
             </div>
           </div>
