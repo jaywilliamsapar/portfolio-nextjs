@@ -7,11 +7,18 @@ import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
-import NextJS from '../public/assets/skills/nextjs.png'
-import Node from '../public/assets/skills/node.png'
-import Canva from '../public/assets/skills/canva.png'
-import MongoDB from '../public/assets/skills/mongo.png'
+import NextJS from '../public/assets/skills/nextjs.png';
+import Node from '../public/assets/skills/node.png';
+import Canva from '../public/assets/skills/canva.png';
+import MongoDB from '../public/assets/skills/mongo.png';
 import AWS from '../public/assets/skills/aws.png';
+import Mern from '../public/assets/skills/mern.png';
+import VsCode from '../public/assets/skills/vscode.png';
+// NEW ADDED TECH SKILL //
+
+
+
+
 
 const Skills = () => {
   return (
@@ -228,7 +235,7 @@ const Skills = () => {
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
+                <h3>Mern</h3>
               </div>
             </div>
           </div>
