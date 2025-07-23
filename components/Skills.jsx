@@ -14,15 +14,15 @@ import Canva from '../public/assets/skills/canva.png';
 import MongoDB from '../public/assets/skills/mongo.png';
 import AWS from '../public/assets/skills/aws.png';
 
-import Mern from '../public/assets/skills/mern.png'; // Assuming you have a Mern image
+// import Mern from '../public/assets/skills/mern.png'; // Assuming you have a Mern image
 import Docker from '../public/assets/skills/docker.png'; // Assuming you have a Docker image
 import Npm from '../public/assets/skills/npm.png'; // Assuming you have an Npm image
-import Shopify from '../public/assets/skills/shopify.png'; // Assuming you have a Shopify image
+// import Shopify from '../public/assets/skills/shopify.png'; // Assuming you have a Shopify image
 import Typescript from '../public/assets/skills/typescript.png'; // Assuming you have a Typescript image
 import Git from '../public/assets/skills/zgit.png'; // Assuming you have a Figma image
 import Angular from '../public/assets/skills/angular.png'; // Assuming you have an Angular image
 import Bootstrap from '../public/assets/skills/bootstrap.png'; // Assuming you have a Bootstrap image
-import Vscode from '../public/assets/skills/vscode.png'; // Assuming you have a Vscode image  
+// import Vscode from '../public/assets/skills/vscode.png'; // Assuming you have a Vscode image  
 import Netlify from '../public/assets/skills/netlify.png'; // Assuming you have a Netlify image
 import Vercel from '../public/assets/skills/vercel.png'; // Assuming you have a Vercel image
  
