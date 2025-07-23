@@ -107,6 +107,10 @@ const resume = () => {
             <span className='px-2 tech-list'>|</span> Tailwind
             <span className='px-2 tech-list'>|</span> Firebase
             <span className='px-2 tech-list'>|</span> Axioss
+            <span className='px-2 tech-list'>|</span> Bootstrap
+            <span className='px-2 tech-list'>|</span> Material UI
+            <span className='px-2 tech-list'>|</span> Git
+            <span className='px-2 tech-list'>|</span> GitHub
           </p>
           <p className='py-2  font-bold'>
             <span className='font-bold save'>Amazon Web Services</span>
