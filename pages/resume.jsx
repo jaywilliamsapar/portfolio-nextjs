@@ -122,7 +122,11 @@ const resume = () => {
         <h5 className='text-center text-[18px] py-4 text-[#1f7240] font-bold save2'>
           WORK EXPERIENCE
         </h5>
+
+
         {/* WORK EXPERIENCES */}
+
+        
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
