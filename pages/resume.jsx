@@ -104,7 +104,7 @@ const resume = () => {
             <span className='px-2 tech-list'>|</span> Next.js
             <span className='px-2 tech-list'>|</span> Node.js
             <span className='px-2 tech-list'>|</span> Redux
-            <span className='px-2 tech-list'>|</span> Tailwind
+            <span className='px-2 tech-list'>|</span> Tailwind CSS
             <span className='px-2 tech-list'>|</span> Firebase
             <span className='px-2 tech-list'>|</span> Axioss
             <span className='px-2 tech-list'>|</span> Bootstrap
