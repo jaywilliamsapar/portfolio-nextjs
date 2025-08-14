@@ -120,7 +120,7 @@ const resume = () => {
         </div>
 
         <h5 className='text-center text-[18px] py-4 text-[#1f7240] font-bold save2'>
-          WORK EXPERIENCE
+          WORK EXPERIENCE 💠
         </h5>
 
 
@@ -137,7 +137,7 @@ const resume = () => {
           <p className='py-1 italic'>Depot In Charge </p>
           <ul className='list-disc list-outside px-8 py-1 leading-relaxed'>
             <li>
-              Automated inventory tracking using Excel macros, reducing manual errors by 40% and saving 10+ hours/week.
+              Automated Inventory tracking using Excel macros, reducing manual errors by 40% and saving 10+ hours/week.
             </li>
             <li>
               Coordinated with logistics teams to ensure 95% on-time order fulfillment, enhancing customer satisfaction.
@@ -154,7 +154,7 @@ const resume = () => {
               Developed and maintained strong relationships with suppliers and vendors, negotiating favorable terms and pricing.
             </li>
             <li>
-              Account and Receivable Management:
+              Sales and Key Account Management Engaging with key clients to understand their needs and provide tailored solutions, resulting in a 20% increase in sales.:
               Implemented a new invoicing system that reduced payment processing time by 25% and improved cash flow.  
             </li>
           </ul>
