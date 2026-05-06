@@ -48,3 +48,7 @@ What do you do in life
 This three words make you feel good about.
 
 This work will be done it all the way fewer times❤❤.
+
+
+
+On May 06,2026 at Global One Industrial Technologies Inc, as a new hire for role of Sales Engineer, This day
